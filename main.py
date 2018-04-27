@@ -17,6 +17,7 @@ def application(environ, start_response):
     if http_method in [None, "OPTION"]:
         start_response(status, response_headers)
         return [ bytes("", encoding='utf-8') ]
+
     else:
         genderModel = lstm_name2gender.LSTMModel()
         if path_info and path_info.startswith("/match/"):
@@ -24,11 +25,11 @@ def application(environ, start_response):
             name = name.strip().capitalize()
             print("name: ", name)
             print("name_length: ", len(name))
-            print("gender_prediction:", genderModel.predict(name))
-
-            response_body.update(demo.sm(name))
+            # print("gender_prediction:", genderModel.predict(name))
             gender, proba = genderModel.predict(name)
             gender = int(gender)
+            response_body.update(demo.sm(name, gender))
+
             proba = list(proba)
             proba = [float(x) for x in proba]
             response_body.update({"inferred_gender": {"gender": gender, "proba": proba}})

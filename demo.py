@@ -1,28 +1,23 @@
 import ed
 import multiprocessing as mp
 import functools
+from tfidf_sim import tf_idf
+
 method_names = [
     'lcs',
     'levenshtein',
     'dlevenshtein',
-    'soundex',
-    'double_meta'
+    'double_meta',
+    'soundex'
 ]
 
 methods = [
     ed.lcs_sim,
     ed.levenshtein_sim,
     ed.damerau_levenshtein_sim,
+    ed.double_metaphone_sim,
     ed.soundex_sim,
-    ed.double_metaphone_sim
 ]
-
-
-def top(lst, indexes, n=20):
-    result = []
-    for i in indexes[:n]:
-        result.append(lst[i])
-    return result
 
 
 def read_csv(filename, sep=','):
@@ -42,25 +37,33 @@ def read_csv(filename, sep=','):
     return result
 
 
-def sm(name, top_n=50):
-    data = read_csv("unique_names_with_count.csv")
+def sm(name, gender, top_n=50):
+    data = read_csv("name_data.txt")
     names = [r[0] for r in data]
-    counts = [r[1] for r in data]
+    counts = [int(r[2]) for r in data]
+    genders = [int(r[1] == "F") for r in data]
+
     similarities = {}
-    # for m in method_names:
-    #     similarities[m] = None
     processes = []
     parent_connections = []
 
     def worker(method_name, method, conn):
-        print("worker starts")
+        print(f"[WORKER]<{method_name}>: START")
         result = (method_name, [method(name, n) for n in names])
-
-        print("worker finishes work")
+        print("[WORKER]: FINISH WORK")
         conn.send([result])
+        print(f"[WORKER]<{method_name}>: SEND RESULT")
         conn.close()
+        print(f"[WORKER]<{method_name}>: EXIT")
 
-        print("worker finishes sending")
+    def tfidf_n(method_name, conn, ng):
+        print(f"[WORKER]<{method_name}>: START")
+        result = (method_name, tf_idf(names,name, ng=ng))
+        print(f"[WORKER]<{method_name}>: FINISH WORK")
+        conn.send([result])
+        print(f"[WORKER]<{method_name}>: SEND RESULT")
+        conn.close()
+        print(f"[WORKER]<{method_name}>: EXIT")
 
     for method_name, method in zip(method_names, methods):
         parent_conn, child_conn = mp.Pipe()
@@ -69,30 +72,37 @@ def sm(name, top_n=50):
         processes.append(process)
         process.start()
 
-    # cause for deadlock
-    # for process in processes:
-    #     process.join()
+    for i in range(2, 4):
+        parent_conn, child_conn = mp.Pipe()
+        parent_connections.append(parent_conn)
+        process = mp.Process(target=tfidf_n, args=(f"tfidf_{i}", child_conn, i))
+        processes.append(process)
+        process.start()
 
     for parent_conn in parent_connections:
         method_name, values = parent_conn.recv()[0]
         parent_conn.close()
         similarities[method_name] = values
 
-    similarities['double_meta'] = list(zip(similarities['double_meta'], similarities["dlevenshtein"]))
-
+    #print(similarities)
     result = {}
     for method_name in similarities:
         values = similarities[method_name]
         indexes = list(range(len(names)))
         indexes.sort(key=lambda x: (values[x], counts[x]), reverse=True)
-        result[method_name] = top(names, indexes, n=top_n)
+        meet_minimum_similarity = lambda x: x >= 0.5
+        most_similar = []
+        for i in indexes[:top_n]:
+            if meet_minimum_similarity(values[i]) and gender == genders[i]:
+                most_similar.append(names[i])
+        result[method_name] = most_similar
     return result
 
 
 if __name__ == '__main__':
     import time
     start = time.time()
-    NAME = "Cathlaen"
-    N = 100
-    print(sm(NAME, N))
+    NAME = "Cathlean"
+    N = 50
+    print(sm(NAME, 1))
     print(time.time()-start,"s", sep="")
