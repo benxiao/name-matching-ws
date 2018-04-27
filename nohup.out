@@ -1,0 +1,776 @@
+2018-04-24 03:58:03.464062: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+/home/xiaor/wsgiref_example/venv/lib64/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': [0, array([0.99045664, 0.00954334], dtype=float32)]}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 03:58:09] "GET /match/damian HTTP/1.1" 200 2719
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': [0, array([0.99045664, 0.00954334], dtype=float32)]}
+name:  Ran
+name_length:  3
+gender_prediction: (0, array([0.96702486, 0.03297515], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 03:58:16] "GET /match/damian HTTP/1.1" 200 2719
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Rya', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Ria', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Rea', 'Rua', 'Ren', 'Rin', 'Rad'], 'levenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'dlevenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'soundex': ['Reyonna', 'Rennie', 'Roena', 'Rayna', 'Rehema', 'Reina', 'Rayen', 'Raina', 'Rien', 'Rowin', 'Remo', 'Rayana', 'Raiana', 'Romin', 'Rohan', 'Ronan', 'Ryan', 'Ruhani', 'Ranay', 'Rayonna', 'Ryann', 'Roney', 'Reniah', 'Reyann', 'Rianne', 'Rainn', 'Rahma', 'Rainy', 'Ramy', 'Ran', 'Rein', 'Ranya', 'Renai', 'Riham', 'Ruhama', 'Ryane', 'Rhayne', 'Romyn', 'Ryonna', 'Raheim', 'Raymon', 'Riannah', 'Rainen', 'Ramiyah', 'Roma', 'Rihan', 'Rim', 'Ryoma', 'Ramon', 'Rhian'], 'double_meta': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ryn', 'Ron', 'Ren', 'Rin', 'Rayna', 'Rayen', 'Raina', 'Ranay', 'Ryann', 'Rainn', 'Rainy', 'Ranya', 'Ryane', 'Rhian', 'Reana', 'Riann', 'Riaan', 'Ranea', 'Ryian', 'Ranna', 'Riane', 'Rayne', 'Raana', 'Raene', 'Rahna', 'Raian', 'Ranaa', 'Rauni', 'Ruann', 'Ryahn', 'Ryean', 'Reann', 'Rayan'], 'inferred_gender': [0, array([0.96702486, 0.03297515], dtype=float32)]}
+name:  Ran
+name_length:  3
+gender_prediction: (0, array([0.96702486, 0.03297515], dtype=float32))
+127.0.0.1 - - [24/Apr/2018 03:58:27] "GET /match/Ran HTTP/1.1" 200 2130
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Rya', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Ria', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Rea', 'Rua', 'Ren', 'Rin', 'Rad'], 'levenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'dlevenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'soundex': ['Reyonna', 'Rennie', 'Roena', 'Rayna', 'Rehema', 'Reina', 'Rayen', 'Raina', 'Rien', 'Rowin', 'Remo', 'Rayana', 'Raiana', 'Romin', 'Rohan', 'Ronan', 'Ryan', 'Ruhani', 'Ranay', 'Rayonna', 'Ryann', 'Roney', 'Reniah', 'Reyann', 'Rianne', 'Rainn', 'Rahma', 'Rainy', 'Ramy', 'Ran', 'Rein', 'Ranya', 'Renai', 'Riham', 'Ruhama', 'Ryane', 'Rhayne', 'Romyn', 'Ryonna', 'Raheim', 'Raymon', 'Riannah', 'Rainen', 'Ramiyah', 'Roma', 'Rihan', 'Rim', 'Ryoma', 'Ramon', 'Rhian'], 'double_meta': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ryn', 'Ron', 'Ren', 'Rin', 'Rayna', 'Rayen', 'Raina', 'Ranay', 'Ryann', 'Rainn', 'Rainy', 'Ranya', 'Ryane', 'Rhian', 'Reana', 'Riann', 'Riaan', 'Ranea', 'Ryian', 'Ranna', 'Riane', 'Rayne', 'Raana', 'Raene', 'Rahna', 'Raian', 'Ranaa', 'Rauni', 'Ruann', 'Ryahn', 'Ryean', 'Reann', 'Rayan'], 'inferred_gender': [0, array([0.96702486, 0.03297515], dtype=float32)]}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+127.0.0.1 - - [24/Apr/2018 03:58:43] "GET /match/Ran HTTP/1.1" 200 2130
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': [0, array([0.99045664, 0.00954334], dtype=float32)]}
+{}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 03:59:00] "GET /match/damian HTTP/1.1" 200 2719
+13.54.63.176 - - [24/Apr/2018 03:59:01] "GET /favicon.ico HTTP/1.1" 500 2
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': [0, array([0.99045664, 0.00954334], dtype=float32)]}
+name:  Andrea
+name_length:  6
+gender_prediction: (1, array([0.05058849, 0.9494115 ], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 03:59:26] "GET /match/damian HTTP/1.1" 200 2719
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Andrea', 'Andriea', 'Andreas', 'Andrena', 'Anndrea', 'Andreia', 'Anderea', 'Andreca', 'Aundrea', 'Andreah', 'Andraea', 'Andreea', 'Andreaz', 'Andrean', 'Andreau', 'Aindrea', 'Andreka', 'Andreal', 'Andreya', 'Andrez', 'Andria', 'Aundra', 'Andres', 'Ondrea', 'Andren', 'Andera', 'Adrean', 'Adrea', 'Andrue', 'Adream', 'Andra', 'Adnrea', 'Andea', 'Andrek', 'Antrea', 'Adrena', 'Andrie', 'Andrel', 'Andrej', 'Andrei', 'Andray', 'Andrey', 'Audrea', 'Andreu', 'Andrae', 'Andras', 'Andree', 'Andreo', 'Undrea', 'Amdrea'], 'levenshtein': ['Andrea', 'Andriea', 'Andreas', 'Andrena', 'Anndrea', 'Andreia', 'Anderea', 'Andreca', 'Aundrea', 'Andreah', 'Andraea', 'Andreea', 'Andreaz', 'Andrean', 'Andreau', 'Aindrea', 'Andreka', 'Andreal', 'Andreya', 'Andrez', 'Andria', 'Andres', 'Ondrea', 'Andren', 'Adrea', 'Andra', 'Andea', 'Andrek', 'Antrea', 'Andrel', 'Andrej', 'Andrei', 'Andrey', 'Audrea', 'Andreu', 'Andree', 'Andreo', 'Undrea', 'Amdrea', 'Andrew', 'Andre', 'Andreq', 'Anrea', 'Andrya', 'Anorea', 'Andreona', 'Andrekia', 'Andrieka', 'Andreyah', 'Andriena'], 'dlevenshtein': ['Andrea', 'Andriea', 'Andreas', 'Andrena', 'Anndrea', 'Andreia', 'Anderea', 'Andreca', 'Aundrea', 'Andreah', 'Andraea', 'Andreea', 'Andreaz', 'Andrean', 'Andreau', 'Aindrea', 'Andreka', 'Andreal', 'Andreya', 'Andrez', 'Andria', 'Andres', 'Ondrea', 'Andren', 'Andera', 'Adrea', 'Andra', 'Adnrea', 'Andea', 'Andrek', 'Antrea', 'Andrel', 'Andrej', 'Andrei', 'Andrey', 'Audrea', 'Andreu', 'Andrae', 'Andree', 'Andreo', 'Undrea', 'Amdrea', 'Andrew', 'Andre', 'Andreq', 'Anrea', 'Andrya', 'Anorea', 'Andreona', 'Andrekia'], 'soundex': ['Andrez', 'Andraya', 'Andriea', 'Aundraya', 'Andrianna', 'Andersyn', 'Aneitra', 'Andria', 'Andros', 'Andreanna', 'Anterio', 'Aundra', 'Andres', 'Andreona', 'Antria', 'Andromeda', 'Aundria', 'Andrika', 'Andren', 'Andera', 'Andriel', 'Andreas', 'Andrena', 'Andrekia', 'Andrieka', 'Anterious', 'Andreyah', 'Andersen', 'Andersson', 'Antero', 'Andron', 'Andrina', 'Andrik', 'Anndrea', 'Andreia', 'Anetria', 'Andreonna', 'Andriena', 'Andrijana', 'Andropolis', 'Anterion', 'Anterrius', 'Antorion', 'Antrese', 'Aundreah', 'Andrue', 'Anders', 'Antrice', 'Andrian', 'Andra'], 'double_meta': ['Andrea', 'Andriea', 'Anndrea', 'Andreia', 'Anderea', 'Aundrea', 'Andreah', 'Andraea', 'Andreea', 'Andreau', 'Aindrea', 'Andreya', 'Andria', 'Ondrea', 'Andera', 'Andra', 'Antrea', 'Andrei', 'Andrey', 'Andreu', 'Andrae', 'Andree', 'Andreo', 'Undrea', 'Andrew', 'Andre', 'Andrya', 'Andreyah', 'Aundreah', 'Aundreia', 'Aundreya', 'Andraya', 'Aundria', 'Anitrea', 'Ondreya', 'Anndria', 'Aundrey', 'Aundrae', 'Andriah', 'Anderia', 'Anderew', 'Andraia', 'Ondra', 'Ondria', 'Aundra', 'Antria', 'Indra', 'Andrue', 'Endre', 'Undra'], 'inferred_gender': [1, array([0.05058849, 0.9494115 ], dtype=float32)]}
+name:  Kenna
+name_length:  5
+gender_prediction: (1, array([0.05959903, 0.94040096], dtype=float32))
+13.54.63.176 - - [24/Apr/2018 04:00:08] "GET /match/Andrea HTTP/1.1" 200 2790
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Kenna', 'Kennia', 'Kienna', 'Kennae', 'Kennya', 'Kennay', 'Keanna', 'Kennah', 'Keunna', 'Keonna', 'Kennan', 'Kenah', 'Kenia', 'Kenn', 'Kaena', 'Kenta', 'Kenai', 'Kenae', 'Tenna', 'Keuna', 'Kenny', 'Kenja', 'Venna', 'Kenza', 'Senna', 'Keyna', 'Kenon', 'Fenna', 'Zenna', 'Yenna', 'Lenna', 'Kenan', 'Kenay', 'Keona', 'Kenra', 'Genna', 'Kynna', 'Keana', 'Kinna', 'Kenni', 'Kenya', 'Kenda', 'Denna', 'Keena', 'Benna', 'Kena', 'Kanna', 'Xenna', 'Jenna', 'Menna'], 'levenshtein': ['Kenna', 'Kennia', 'Kienna', 'Kennae', 'Kennya', 'Kennay', 'Keanna', 'Kennah', 'Keunna', 'Keonna', 'Kennan', 'Kenia', 'Kenn', 'Kenta', 'Tenna', 'Keuna', 'Kenny', 'Kenja', 'Venna', 'Kenza', 'Senna', 'Keyna', 'Fenna', 'Zenna', 'Yenna', 'Lenna', 'Keona', 'Kenra', 'Genna', 'Kynna', 'Keana', 'Kinna', 'Kenni', 'Kenya', 'Kenda', 'Denna', 'Keena', 'Benna', 'Kena', 'Kanna', 'Xenna', 'Jenna', 'Menna', 'Keina', 'Kenne', 'Renna', 'Henna', 'Keianna', 'Kennyah', 'Keeanna'], 'dlevenshtein': ['Kenna', 'Kennia', 'Kienna', 'Kennae', 'Kennya', 'Kennay', 'Keanna', 'Kennah', 'Keunna', 'Keonna', 'Kennan', 'Kenia', 'Kenn', 'Kenta', 'Tenna', 'Keuna', 'Kenny', 'Kenja', 'Venna', 'Kenza', 'Senna', 'Keyna', 'Fenna', 'Zenna', 'Yenna', 'Lenna', 'Kenan', 'Keona', 'Kenra', 'Genna', 'Kynna', 'Keana', 'Kinna', 'Kenni', 'Kenya', 'Kenda', 'Denna', 'Keena', 'Benna', 'Kena', 'Kanna', 'Xenna', 'Jenna', 'Menna', 'Keina', 'Kenne', 'Renna', 'Henna', 'Keianna', 'Kennyah'], 'soundex': ['Kenna', 'Keianna', 'Kiwanna', 'Kayn', 'Kenyia', 'Kiwan', 'Kanon', 'Kawana', 'Kimiyo', 'Keywon', 'Kayanna', 'Kaimani', 'Kano', 'Kayana', 'Kiam', 'Kunio', 'Kieon', 'Kaymin', 'Kamee', 'Keino', 'Khayman', 'Kemia', 'Keiona', 'Kaiyana', 'Koehn', 'Kammie', 'Kean', 'Khaniyah', 'Kyian', 'Kami', 'Kenyan', 'Kein', 'Keeyon', 'Kniyah', 'Kimo', 'Kamau', 'Kanoe', 'Kiyani', 'Kamea', 'Kiano', 'Kahan', 'Kahniyah', 'Kaniyha', 'Kenah', 'Keymia', 'Khemani', 'Kimwana', 'Kine', 'Konyae', 'Kimaya'], 'double_meta': ['Kenna', 'Kennia', 'Kienna', 'Kennae', 'Kennya', 'Kennay', 'Keanna', 'Kennah', 'Keunna', 'Keonna', 'Kenia', 'Kenn', 'Keuna', 'Kenny', 'Keyna', 'Keona', 'Kynna', 'Keana', 'Kinna', 'Kenni', 'Kenya', 'Keena', 'Kena', 'Kanna', 'Keina', 'Kenne', 'Keianna', 'Kennyah', 'Keeanna', 'Keaunna', 'Keionna', 'Kennaya', 'Kenniah', 'Kieonna', 'Keyonna', 'Keyanna', 'Kewanna', 'Keannah', 'Kieanna', 'Keyunna', 'Kenniya', 'Kenyia', 'Keiona', 'Kianna', 'Keniya', 'Keinya', 'Keynia', 'Kyeana', 'Kieona', 'Keanua'], 'inferred_gender': [1, array([0.05959903, 0.94040096], dtype=float32)]}
+name:  Pyter
+name_length:  5
+gender_prediction: (0, array([0.9846705 , 0.01532951], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 04:00:39] "GET /match/Kenna HTTP/1.1" 200 2507
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Peter', 'Pyper', 'Pater', 'Pieter', 'Petter', 'Pypper', 'Peyten', 'Wynter', 'Prayer', 'Payten', 'Porter', 'Myster', 'Tyner', 'Patte', 'Petr', 'Zyeir', 'Zyler', 'Pedro', 'Hyder', 'Myer', 'Pryce', 'Peder', 'Dyer', 'Pacer', 'Perry', 'Piotr', 'Boyer', 'Kyere', 'Wymer', 'Jeter', 'Piera', 'Piero', 'Syler', 'Coyte', 'Pear', 'Peary', 'Tlyer', 'Tyer', 'Kyera', 'Tyler', 'Kyzer', 'Cyler', 'Perel', 'Perez', 'Paytn', 'Patra', 'Petar', 'Kayte', 'Arter', 'Ater'], 'levenshtein': ['Peter', 'Pyper', 'Pater', 'Pieter', 'Petter', 'Pypper', 'Peyten', 'Wynter', 'Payten', 'Porter', 'Myster', 'Tyner', 'Petr', 'Zyler', 'Hyder', 'Myer', 'Peder', 'Dyer', 'Pacer', 'Wymer', 'Jeter', 'Syler', 'Tyer', 'Tyler', 'Kyzer', 'Cyler', 'Petar', 'Arter', 'Ater', 'Geter', 'Kater', 'Kyten', 'Myler', 'Ryner', 'Tyber', 'Tyker', 'Tyzer', 'Zyeer', 'Etter', 'Pete', 'Piper', 'Ryder', 'Pier', 'Per', 'Tyger', 'Ryler', 'Tyten', 'Alter', 'Aster', 'Ryver'], 'dlevenshtein': ['Peter', 'Pyper', 'Pater', 'Pieter', 'Petter', 'Pypper', 'Peyten', 'Wynter', 'Payten', 'Porter', 'Myster', 'Tyner', 'Petr', 'Zyler', 'Hyder', 'Myer', 'Peder', 'Dyer', 'Pacer', 'Wymer', 'Jeter', 'Syler', 'Tyer', 'Tyler', 'Kyzer', 'Cyler', 'Petar', 'Arter', 'Ater', 'Geter', 'Kater', 'Kyten', 'Myler', 'Petre', 'Ryner', 'Tyber', 'Tyker', 'Tyzer', 'Zyeer', 'Etter', 'Pete', 'Piper', 'Ryder', 'Pier', 'Per', 'Tyger', 'Ryler', 'Tyten', 'Alter', 'Aster'], 'soundex': ['Pieter', 'Pietra', 'Petr', 'Pedro', 'Phaidra', 'Peder', 'Piotr', 'Petrea', 'Paetra', 'Peter', 'Petter', 'Patra', 'Petar', 'Padro', 'Petre', 'Petria', 'Poetri', 'Patria', 'Phedra', 'Pietro', 'Phaedra', 'Pader', 'Pater', 'Pheadra', 'Petro', 'Phadra', 'Petra', 'Pedra', 'Poetry', 'Patrea', 'Patrcia', 'Pedrohenrique', 'Padme', 'Patryk', 'Pattie', 'Padraic', 'Patte', 'Patirica', 'Patrena', 'Patrica', 'Peityn', 'Pattrick', 'Pattijo', 'Pattricia', 'Patriece', 'Paton', 'Pietrina', 'Peat', 'Paetyn', 'Pacer'], 'double_meta': ['Peter', 'Pater', 'Pieter', 'Petter', 'Petr', 'Peder', 'Petar', 'Petre', 'Pader', 'Pietra', 'Petrea', 'Paetra', 'Poetri', 'Pietro', 'Poetry', 'Patrea', 'Piotr', 'Patra', 'Bader', 'Petro', 'Petra', 'Petria', 'Patria', 'Pedro', 'Bedar', 'Padro', 'Badr', 'Pedra', 'Badhir', 'Bowdrie', 'Beather', 'Pyper', 'Pypper', 'Peyten', 'Wynter', 'Payten', 'Porter', 'Myster', 'Tyner', 'Zyler', 'Hyder', 'Myer', 'Dyer', 'Pacer', 'Wymer', 'Jeter', 'Syler', 'Tyer', 'Tyler', 'Kyzer'], 'inferred_gender': [0, array([0.9846705 , 0.01532951], dtype=float32)]}
+name:  Cersei
+name_length:  6
+gender_prediction: (1, array([0.09284136, 0.9071586 ], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:01:33] "GET /match/Pyter HTTP/1.1" 200 2469
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Cerise', 'Jersei', 'Cerese', 'Cherese', 'Cherise', 'Perseis', 'Cheryse', 'Chelsei', 'Cerelia', 'Carlei', 'Cesily', 'Deseri', 'Chelse', 'Ceaser', 'Carsin', 'Cetric', 'Nerses', 'Ceri', 'Cherye', 'Cherre', 'Celese', 'Tersea', 'Persia', 'Cesiah', 'Terese', 'Chesni', 'Ceriah', 'Kersti', 'Cesare', 'Careli', 'Caeser', 'Cedrea', 'Cerrie', 'Jerzei', 'Cedrie', 'Celsie', 'Persis', 'Ceren', 'Cieria', 'Kersey', 'Leslei', 'Yeremi', 'Cerena', 'Cerina', 'Crysti', 'Cesley', 'Cebria', 'Celsi', 'Cerdic', 'Cerisa'], 'levenshtein': ['Jersei', 'Perseis', 'Chelsei', 'Carlei', 'Ceaser', 'Nerses', 'Ceri', 'Tersea', 'Cerise', 'Kersti', 'Jerzei', 'Ceren', 'Kersey', 'Celsi', 'Cerri', 'Kensei', 'Sergei', 'Hersey', 'Carsen', 'Celsea', 'Ceres', 'Kelsei', 'Jersey', 'Jernei', 'Celsey', 'Jersen', 'Hersel', 'Jersi', 'Jersee', 'Cerese', 'Persey', 'Versel', 'Versey', 'Ciersten', 'Kerstein', 'Hershel', 'Kersten', 'Cheryel', 'Persais', 'Curstin', 'Chrissi', 'Cherese', 'Kenslei', 'Emersen', 'Bersain', 'Kerstie', 'Gersain', 'Mercedi', 'Cherree', 'Chrysti'], 'dlevenshtein': ['Jersei', 'Perseis', 'Chelsei', 'Carlei', 'Ceaser', 'Nerses', 'Ceri', 'Tersea', 'Cerise', 'Kersti', 'Cerrie', 'Jerzei', 'Celsie', 'Ceren', 'Kersey', 'Celsi', 'Cerri', 'Cresie', 'Jersie', 'Kensei', 'Sergei', 'Hersey', 'Carsen', 'Celsea', 'Ceres', 'Kelsei', 'Ceresa', 'Jersey', 'Versie', 'Jernei', 'Celsey', 'Jersen', 'Hersel', 'Jersi', 'Carsie', 'Jersee', 'Cerese', 'Hersie', 'Persey', 'Versel', 'Versey', 'Ciersten', 'Kerstein', 'Hershel', 'Kersten', 'Cheryel', 'Preslei', 'Persais', 'Curstin', 'Chrissi'], 'soundex': ['Carrissa', 'Cherish', 'Chrysa', 'Cyruss', 'Caris', 'Chrisa', 'Corrissa', 'Cross', 'Corsica', 'Charrisse', 'Chrissi', 'Cherese', 'Charice', 'Caragh', 'Cerise', 'Carisha', 'Chares', 'Charika', 'Chrissa', 'Chirag', 'Croix', 'Corky', 'Corrisa', 'Chericka', 'Cheriece', 'Cherisha', 'Cirrus', 'Creosha', 'Criscia', 'Crews', 'Ciriaco', 'Criss', 'Carrisa', 'Charisse', 'Cherrish', 'Charissa', 'Caresha', 'Carig', 'Cariss', 'Caruso', 'Cerisa', 'Cerjio', 'Cerrisa', 'Charies', 'Chariese', 'Charisha', 'Chaurice', 'Cherrisse', 'Chierika', 'Chiriga'], 'double_meta': ['Cerise', 'Ceres', 'Ceresa', 'Cerese', 'Cerissa', 'Cerisa', 'Seresa', 'Cyress', 'Cerys', 'Circe', 'Cerrissa', 'Cerrisa', 'Serissa', 'Cyruss', 'Sears', 'Cirrus', 'Srisai', 'Zyrese', 'Saresa', 'Cyris', 'Cyrus', 'Seras', 'Xeryus', 'Saoirse', 'Serious', 'Sarissa', 'Siris', 'Zyrus', 'Saras', 'Syrius', 'Sirius', 'Zarius', 'Searcy', 'Sreyas', 'Zoraiz', 'Syris', 'Sirus', 'Syrus', 'Zarious', 'Zarrius', 'Jersei', 'Perseis', 'Chelsei', 'Carlei', 'Ceaser', 'Nerses', 'Ceri', 'Tersea', 'Kersti', 'Cerrie'], 'inferred_gender': [1, array([0.09284136, 0.9071586 ], dtype=float32)]}
+name:  Petyr
+name_length:  5
+gender_prediction: (1, array([0.06553771, 0.93446225], dtype=float32))
+13.54.63.176 - - [24/Apr/2018 04:02:31] "GET /match/Cersei HTTP/1.1" 200 2705
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Petr', 'Peter', 'Petar', 'Petre', 'Petey', 'Petty', 'Petro', 'Petra', 'Pieter', 'Pietra', 'Peityn', 'Paetyn', 'Petrea', 'Petros', 'Paetra', 'Pretty', 'Petter', 'Petria', 'Petrit', 'Petrus', 'Petyon', 'Poetri', 'Peytyn', 'Pietro', 'Poetry', 'Betty', 'Penny', 'Keyry', 'Betzy', 'Pedro', 'Neyra', 'Peat', 'Keyra', 'Peder', 'Pacer', 'Perry', 'Pessy', 'Vetra', 'Hetty', 'Piotr', 'Lety', 'Ketsy', 'Jeter', 'Deyra', 'Piera', 'Patty', 'Piero', 'Yenty', 'Pear', 'Peary'], 'levenshtein': ['Petr', 'Peter', 'Petar', 'Pieter', 'Peityn', 'Paetyn', 'Petter', 'Petyon', 'Peytyn', 'Peder', 'Lety', 'Jeter', 'Pear', 'Peta', 'Geter', 'Paty', 'Patyn', 'Petre', 'Bety', 'Pete', 'Per', 'Petey', 'Petal', 'Peer', 'Petie', 'Petty', 'Pater', 'Petro', 'Petra', 'Peryl', 'Prestyn', 'Heathyr', 'Peteris', 'Paetynn', 'Peytynn', 'Pietra', 'Patryk', 'Nestor', 'Dieter', 'Kemyra', 'Taelyr', 'Ketara', 'Peterson', 'Keayra', 'Nettye', 'Satyra', 'Hektor', 'Paelyn', 'Jester', 'Peyton'], 'dlevenshtein': ['Petr', 'Peter', 'Petar', 'Pieter', 'Peityn', 'Paetyn', 'Petter', 'Petyon', 'Peytyn', 'Poetry', 'Peder', 'Perry', 'Lety', 'Jeter', 'Pear', 'Peary', 'Peta', 'Geter', 'Paty', 'Patyn', 'Petre', 'Bety', 'Pete', 'Per', 'Petey', 'Petal', 'Peer', 'Petie', 'Petty', 'Pater', 'Petro', 'Petra', 'Peryl', 'Prestyn', 'Heathyr', 'Peteris', 'Paetynn', 'Peytynn', 'Pietra', 'Patryk', 'Nestor', 'Dieter', 'Kemyra', 'Taelyr', 'Ketara', 'Peterson', 'Keayra', 'Jentry', 'Nettye', 'Satyra'], 'soundex': ['Pieter', 'Pietra', 'Petr', 'Pedro', 'Phaidra', 'Peder', 'Piotr', 'Petrea', 'Paetra', 'Peter', 'Petter', 'Patra', 'Petar', 'Padro', 'Petre', 'Petria', 'Poetri', 'Patria', 'Phedra', 'Pietro', 'Phaedra', 'Pader', 'Pater', 'Pheadra', 'Petro', 'Phadra', 'Petra', 'Pedra', 'Poetry', 'Patrea', 'Patrcia', 'Pedrohenrique', 'Padme', 'Patryk', 'Pattie', 'Padraic', 'Patte', 'Patirica', 'Patrena', 'Patrica', 'Peityn', 'Pattrick', 'Pattijo', 'Pattricia', 'Patriece', 'Paton', 'Pietrina', 'Peat', 'Paetyn', 'Pacer'], 'double_meta': ['Petr', 'Peter', 'Petar', 'Pieter', 'Petter', 'Poetry', 'Peder', 'Petre', 'Pater', 'Petro', 'Petra', 'Pietra', 'Petrea', 'Paetra', 'Petria', 'Poetri', 'Pietro', 'Pedro', 'Piotr', 'Patra', 'Bedar', 'Pader', 'Pedra', 'Patria', 'Patrea', 'Padro', 'Bader', 'Badr', 'Badhir', 'Bowdrie', 'Beather', 'Peityn', 'Paetyn', 'Petyon', 'Peytyn', 'Perry', 'Lety', 'Jeter', 'Pear', 'Peary', 'Peta', 'Geter', 'Paty', 'Patyn', 'Bety', 'Pete', 'Per', 'Petey', 'Petal', 'Peer'], 'inferred_gender': [1, array([0.06553771, 0.93446225], dtype=float32)]}
+name:  Ramsay
+name_length:  6
+gender_prediction: (0, array([0.74431527, 0.2556847 ], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 04:03:00] "GET /match/Petyr HTTP/1.1" 200 2517
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Ramsay', 'Ramisa', 'Ramsey', 'Ramsy', 'Ramaya', 'Rashay', 'Ramsha', 'Ramesha', 'Ramayah', 'Rashaya', 'Rosamay', 'Ramisha', 'Ramces', 'Raysha', 'Rasa', 'Ramaj', 'Rashan', 'Damany', 'Ranay', 'Jashay', 'Ramari', 'Rahma', 'Ramy', 'Idamay', 'Ruhama', 'Rasia', 'Yamaya', 'Raesha', 'Rayssa', 'Camay', 'Samary', 'Raafay', 'Rahmat', 'Ramona', 'Masayo', 'Ramsie', 'Rasean', 'Camary', 'Masaye', 'Rasmus', 'Rasha', 'Casady', 'Ramina', 'Jamay', 'Rahmad', 'Raisah', 'Rumsey', 'Lamaya', 'Rahsan', 'Ramey'], 'levenshtein': ['Ramsay', 'Ramsey', 'Ramsy', 'Rasa', 'Ramaj', 'Ranay', 'Ramy', 'Ramisa', 'Camay', 'Raafay', 'Ramsie', 'Jamay', 'Raisah', 'Rumsey', 'Rahsan', 'Ramey', 'Ramlah', 'Ramoan', 'Ramsen', 'Ramson', 'Wasay', 'Ramiah', 'Samsam', 'Ramzy', 'Rasan', 'Raman', 'Rassan', 'Ramar', 'Ramses', 'Ramah', 'Samay', 'Ramia', 'Rafay', 'Ramaya', 'Ramla', 'Rashay', 'Hamsa', 'Ramzey', 'Ramyah', 'Raysa', 'Ramsha', 'Ramsi', 'Raisa', 'Ramal', 'Ramya', 'Rama', 'Rammy', 'Rayjay', 'Darshay', 'Raesean'], 'dlevenshtein': ['Ramsay', 'Ramsey', 'Ramsy', 'Rasa', 'Ramaj', 'Ranay', 'Ramy', 'Ramisa', 'Camay', 'Raafay', 'Ramsie', 'Jamay', 'Raisah', 'Rumsey', 'Rahsan', 'Ramey', 'Ramlah', 'Ramoan', 'Ramsen', 'Ramson', 'Wasay', 'Ramiah', 'Samsam', 'Ramzy', 'Rasan', 'Ramiya', 'Raman', 'Rassan', 'Ramar', 'Ramses', 'Ramah', 'Samay', 'Ramia', 'Rafay', 'Ramaya', 'Ramla', 'Rashay', 'Hamsa', 'Ramzey', 'Ramyah', 'Raysa', 'Ramsha', 'Ramsi', 'Raisa', 'Ramal', 'Ramya', 'Rama', 'Rammy', 'Rayjay', 'Darshay'], 'soundex': ['Ramces', 'Ronasia', 'Raneshia', 'Ramaj', 'Renuka', 'Rahneisha', 'Ronak', 'Reyaansh', 'Remijio', 'Raeneisha', 'Ronnice', 'Romesha', 'Ronesha', 'Remus', 'Romeka', 'Remigio', 'Ramesha', 'Ramesses', 'Reneshia', 'Ronneisha', 'Renisha', 'Ramisa', 'Ranessa', 'Rhonesha', 'Ronessa', 'Ramzi', 'Ramsie', 'Roniqua', 'Rimas', 'Renso', 'Ranajah', 'Range', 'Rehansh', 'Reniesha', 'Reniqua', 'Romeisha', 'Romus', 'Ronik', 'Roynesha', 'Rumsey', 'Ranisha', 'Roneisha', 'Ramsey', 'Romas', 'Renice', 'Renwick', 'Romance', 'Ronika', 'Raniesha', 'Renecia'], 'double_meta': ['Ramsay', 'Ramsey', 'Ramsy', 'Ramisa', 'Ramsie', 'Rumsey', 'Ramzy', 'Ramzey', 'Ramsi', 'Ramzi', 'Rimas', 'Romas', 'Ramos', 'Rameez', 'Ramis', 'Ramiz', 'Remas', 'Ramez', 'Ramzee', 'Ramzie', 'Rumaysah', 'Romaisa', 'Romeesa', 'Rumaysa', 'Rumaisa', 'Remus', 'Romus', 'Reemas', 'Rasa', 'Ramaj', 'Ranay', 'Ramy', 'Camay', 'Raafay', 'Jamay', 'Raisah', 'Rahsan', 'Ramey', 'Ramlah', 'Ramoan', 'Ramsen', 'Ramson', 'Wasay', 'Ramiah', 'Samsam', 'Rasan', 'Ramiya', 'Raman', 'Rassan', 'Ramar'], 'inferred_gender': [0, array([0.74431527, 0.2556847 ], dtype=float32)]}
+name:  Theon
+name_length:  5
+gender_prediction: (0, array([0.9857671, 0.0142329], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 04:03:23] "GET /match/Ramsay HTTP/1.1" 200 2600
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Theon', 'Theoni', 'Theone', 'Theona', 'Theron', 'Teron', 'Teon', 'Thien', 'Teona', 'Tegon', 'Temon', 'Thon', 'Thony', 'Thong', 'Treon', 'Thorn', 'Thena', 'Teyon', 'Tejon', 'Teoni', 'Teion', 'Taeon', 'Theo', 'Tevon', 'Theoren', 'Thermon', 'Theldon', 'Therone', 'Thearon', 'Thelmon', 'Therron', 'Therion', 'Theoden', 'Thelton', 'Treson', 'Theora', 'Teyton', 'Taedon', 'Theren', 'Taelon', 'Therin', 'Taveon', 'Cheron', 'Taevon', 'Tieson', 'Tikhon', 'Chevon', 'Thaden', 'Teoman', 'Teshon'], 'levenshtein': ['Theon', 'Theoni', 'Theone', 'Theona', 'Theron', 'Teon', 'Thon', 'Treon', 'Taeon', 'Theo', 'Theoren', 'Thermon', 'Theldon', 'Therone', 'Thearon', 'Thelmon', 'Therron', 'Therion', 'Theoden', 'Thelton', 'Treson', 'Theora', 'Taedon', 'Theren', 'Taelon', 'Therin', 'Taveon', 'Cheron', 'Taevon', 'Tieson', 'Chevon', 'Treton', 'Chelon', 'Tereon', 'Theopa', 'Thyron', 'Tredon', 'Tharon', 'Pheona', 'Treona', 'Theory', 'Shevon', 'Tyveon', 'Treyon', 'Thuong', 'Tremon', 'Sheron', 'Tehron', 'Trejon', 'Theryn'], 'dlevenshtein': ['Theon', 'Theoni', 'Theone', 'Theona', 'Theron', 'Teon', 'Thon', 'Treon', 'Taeon', 'Theo', 'Theoren', 'Thermon', 'Theldon', 'Therone', 'Thearon', 'Thelmon', 'Therron', 'Therion', 'Theoden', 'Thelton', 'Treson', 'Theora', 'Taedon', 'Theren', 'Taelon', 'Therin', 'Taveon', 'Cheron', 'Taevon', 'Tieson', 'Chevon', 'Treton', 'Chelon', 'Tereon', 'Theopa', 'Thyron', 'Tredon', 'Tharon', 'Pheona', 'Treona', 'Theory', 'Shevon', 'Tyveon', 'Treyon', 'Thuong', 'Tremon', 'Sheron', 'Tehron', 'Trejon', 'Theryn'], 'soundex': ['Toni', 'Tani', 'Tenia', 'Teana', 'Tinnie', 'Taima', 'Tiawanna', 'Tam', 'Taino', 'Teon', 'Tammee', 'Tahnee', 'Tana', 'Tenaya', 'Thien', 'Tenee', 'Tomie', 'Timmia', 'Tawna', 'Tyann', 'Tayna', 'Tawnie', 'Toniyah', 'Teona', 'Tamana', 'Taniah', 'Tyannah', 'Tonny', 'Toini', 'Thom', 'Timmey', 'Tinie', 'Tim', 'Tywon', 'Tamaiya', 'Tawonna', 'Tenya', 'Tena', 'Towana', 'Tanaia', 'Tanayia', 'Tiaunna', 'Tamona', 'Taniyia', 'Tomm', 'Taiwan', 'Tonna', 'Tawona', 'Thoma', 'Tnya'], 'double_meta': ['Theon', 'Theoni', 'Theone', 'Theona', 'Thon', 'Thoeun', 'Thien', 'Thain', 'Thony', 'Than', 'Thena', 'Thuan', 'Thian', 'Theanna', 'Thayna', 'Thiana', 'Thaina', 'Thanna', 'Thaine', 'Thayne', 'Thenia', 'Thawann', 'Thana', 'Thane', 'Thinh', 'Thanh', 'Thanya', 'Thania', 'Teon', 'Taeon', 'Taeyon', 'Teona', 'Tywon', 'Tien', 'Tyon', 'Dieon', 'Tein', 'Twon', 'Tawon', 'Tayon', 'Tyion', 'Ton', 'Daeon', 'Tyyon', 'Tiyon', 'Teyon', 'Taion', 'Teoni', 'Deon', 'Teion'], 'inferred_gender': [0, array([0.9857671, 0.0142329], dtype=float32)]}
+name:  Daario
+name_length:  6
+gender_prediction: (0, array([0.99833775, 0.00166221], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 04:03:45] "GET /match/Theon HTTP/1.1" 200 2560
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damario', 'Davario', 'Dario', 'Dayari', 'Darion', 'Darrio', 'Datari', 'Dmario', 'Damari', 'Danari', 'Darico', 'Daaron', 'Dacari', 'Dalari', 'Dakari', 'Davari', 'Davarrio', 'Damarion', 'Dazarion', 'Davarion', 'Dakarion', 'Damarie', 'Denario', 'Tamario', 'Nazario', 'Dearion', 'Danaria', 'Damarco', 'Dakarri', 'Daerion', 'Lazario', 'Makario', 'Demario', 'Lamario', 'Dmarion', 'Darieon', 'Nasario', 'Camario', 'Daktari', 'Damarlo', 'Dashari', 'Navario', 'Tavario', 'Dakaria', 'Daarina', 'Darrion', 'Damariz', 'Damaria', 'Dimario', 'Sacario'], 'levenshtein': ['Damario', 'Davario', 'Dario', 'Darrio', 'Dmario', 'Davarrio', 'Damarion', 'Dazarion', 'Davarion', 'Dakarion', 'Damarie', 'Denario', 'Tamario', 'Nazario', 'Dearion', 'Danaria', 'Damarco', 'Daerion', 'Lazario', 'Makario', 'Demario', 'Lamario', 'Dmarion', 'Nasario', 'Camario', 'Damarlo', 'Navario', 'Tavario', 'Dakaria', 'Daarina', 'Darrion', 'Damariz', 'Damaria', 'Dimario', 'Sacario', 'Damacio', 'Macario', 'Dakarie', 'Damarii', 'Javario', 'Dalarie', 'Samario', 'Dakarii', 'Davaria', 'Kamario', 'Jamario', 'Davaris', 'Dairion', 'Devario', 'Ramario'], 'dlevenshtein': ['Damario', 'Davario', 'Dario', 'Darrio', 'Dmario', 'Davarrio', 'Damarion', 'Dazarion', 'Davarion', 'Dakarion', 'Damarie', 'Denario', 'Tamario', 'Nazario', 'Dearion', 'Danaria', 'Damarco', 'Daerion', 'Lazario', 'Makario', 'Demario', 'Lamario', 'Dmarion', 'Nasario', 'Camario', 'Damarlo', 'Navario', 'Tavario', 'Dakaria', 'Daarina', 'Darrion', 'Damariz', 'Damaria', 'Dimario', 'Sacario', 'Damacio', 'Macario', 'Dakarie', 'Damarii', 'Javario', 'Dalarie', 'Samario', 'Dakarii', 'Davaria', 'Kamario', 'Jamario', 'Davaris', 'Dairion', 'Devario', 'Ramario'], 'soundex': ['Darya', 'Dory', 'Dayra', 'Darah', 'Drewey', 'Dario', 'Dorrie', 'Deriyah', 'Diera', 'Duru', 'Daria', 'Darriah', 'Dheer', 'Darrah', 'Dyer', 'Deaire', 'Daire', 'Drew', 'Deira', 'Dhairya', 'Darrow', 'Dayari', 'Dree', 'Dearra', 'Daray', 'Dorea', 'Dare', 'Darrio', 'Deyra', 'Diyari', 'Drea', 'Diara', 'Daryiah', 'Dearria', 'Dorah', 'Durah', 'Dre', 'Derri', 'Deari', 'Dari', 'Doree', 'Darr', 'Derrie', 'Darra', 'Deri', 'Darea', 'Darro', 'Dauri', 'Dayri', 'Deariah'], 'double_meta': ['Dario', 'Darrio', 'Daria', 'Dayari', 'Tario', 'Deari', 'Dari', 'Darro', 'Dauri', 'Dayri', 'Dearie', 'Darie', 'Darri', 'Dairo', 'Dayro', 'Darria', 'Dearia', 'Darrie', 'Darriah', 'Dearria', 'Deariah', 'Darya', 'Dayra', 'Darah', 'Dorrie', 'Darrah', 'Deaire', 'Daire', 'Tayari', 'Tauri', 'Darrow', 'Dearra', 'Taria', 'Daray', 'Dare', 'Diyari', 'Diara', 'Derri', 'Darr', 'Derrie', 'Darra', 'Deri', 'Darea', 'Dero', 'Doro', 'Durie', 'Tyaria', 'Darey', 'Diar', 'Deaira'], 'inferred_gender': [0, array([0.99833775, 0.00166221], dtype=float32)]}
+{}
+name:  Varys
+name_length:  5
+gender_prediction: (1, array([0.15253305, 0.8474669 ], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:04:09] "GET /match/Daario HTTP/1.1" 200 2713
+13.54.63.176 - - [24/Apr/2018 04:04:09] "GET /favicon.ico HTTP/1.1" 500 2
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Vadys', 'Karys', 'Parys', 'Carys', 'Marlys', 'Valary', 'Varsha', 'Karyss', 'Valery', 'Marysa', 'Clarys', 'Caryss', 'Varish', 'Darlys', 'Daryus', 'Valory', 'Varney', 'Larysa', 'Amarys', 'Karysa', 'Paryss', 'Maryse', 'Marcys', 'Parks', 'Darya', 'Harvy', 'Ardys', 'Marks', 'Caris', 'Taray', 'Anays', 'Irys', 'Gary', 'Laysa', 'Khary', 'Laury', 'Darus', 'Marky', 'Vadis', 'Yaris', 'Larry', 'Pars', 'Vasil', 'Varie', 'Kamry', 'Darby', 'Jaryd', 'Mabry', 'Gardy', 'Vamsi'], 'levenshtein': ['Vadys', 'Karys', 'Parys', 'Carys', 'Marlys', 'Karyss', 'Marysa', 'Clarys', 'Caryss', 'Varish', 'Darlys', 'Daryus', 'Larysa', 'Amarys', 'Karysa', 'Paryss', 'Maryse', 'Marcys', 'Parks', 'Darya', 'Marks', 'Caris', 'Irys', 'Gary', 'Darus', 'Vadis', 'Yaris', 'Pars', 'Varie', 'Jaryd', 'Jary', 'Veryl', 'Fares', 'Narya', 'Sary', 'Vanya', 'Vara', 'Waris', 'Larya', 'Caryl', 'Lars', 'Sarye', 'Taras', 'Daryl', 'Varee', 'Varik', 'Mays', 'Tary', 'Hays', 'Karis'], 'dlevenshtein': ['Vadys', 'Karys', 'Parys', 'Carys', 'Marlys', 'Karyss', 'Marysa', 'Clarys', 'Caryss', 'Varish', 'Darlys', 'Daryus', 'Larysa', 'Amarys', 'Karysa', 'Paryss', 'Maryse', 'Marcys', 'Parks', 'Darya', 'Marks', 'Caris', 'Irys', 'Gary', 'Darus', 'Vadis', 'Yaris', 'Pars', 'Varie', 'Jaryd', 'Jary', 'Veryl', 'Fares', 'Narya', 'Sary', 'Vanya', 'Vara', 'Waris', 'Larya', 'Caryl', 'Lars', 'Sarye', 'Taras', 'Daryl', 'Varee', 'Varik', 'Mays', 'Tary', 'Hays', 'Karis'], 'soundex': ['Varsha', 'Viraj', 'Versa', 'Virga', 'Varik', 'Virgus', 'Virsie', 'Virge', 'Varek', 'Veruca', 'Vrisa', 'Vergie', 'Vergia', 'Varish', 'Vraj', 'Verga', 'Versie', 'Virak', 'Versia', 'Virgie', 'Varick', 'Vercie', 'Viraaj', 'Veeraj', 'Vareck', 'Virgia', 'Verge', 'Voris', 'Varshika', 'Versace', 'Versey', 'Virgilia', 'Venesha', 'Vyron', 'Verma', 'Vernee', 'Viveka', 'Virginio', 'Vung', 'Venus', 'Virgilene', 'Virlee', 'Vrishank', 'Vivica', 'Virjean', 'Viraat', 'Verley', 'Verity', 'Vadis', 'Vincy'], 'double_meta': ['Fares', 'Faris', 'Voris', 'Faaris', 'Farris', 'Pharis', 'Phares', 'Farisa', 'Versa', 'Faraz', 'Vrisa', 'Feras', 'Firas', 'Fariz', 'Faraaz', 'Virsie', 'Farice', 'Ferras', 'Fariza', 'Versie', 'Ferris', 'Versia', 'Vercie', 'Pharez', 'Forris', 'Versey', 'Furiosa', 'Furious', 'Fayrouz', 'Feroz', 'Forace', 'Freesia', 'Frasier', 'Frazier', 'Waris', 'Warees', 'Waaris', 'Vadys', 'Karys', 'Parys', 'Carys', 'Marlys', 'Karyss', 'Marysa', 'Clarys', 'Caryss', 'Varish', 'Darlys', 'Daryus', 'Larysa'], 'inferred_gender': [1, array([0.15253305, 0.8474669 ], dtype=float32)]}
+name:  Joer
+name_length:  4
+gender_prediction: (0, array([0.9691065 , 0.03089357], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:04:28] "GET /match/Varys HTTP/1.1" 200 2505
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Joee', 'Jora', 'Jera', 'Jone', 'Jorn', 'Jose', 'Jole', 'Joey', 'Joen', 'Joe', 'Jere', 'Joeb', 'Joei', 'Joye', 'Jory', 'Joel', 'Jeru', 'Joie', 'Jeri', 'Jori', 'Jerl', 'Joed', 'Jode', 'Jer', 'Joes', 'Jobe', 'Jery', 'Jove', 'Joce', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jerah', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Jerid', 'Josef', 'Jozie', 'Jonne', 'Jaber', 'Junor', 'Jerre'], 'levenshtein': ['Joee', 'Joey', 'Joen', 'Joe', 'Joeb', 'Joei', 'Joel', 'Joed', 'Jer', 'Joes', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Josef', 'Jaber', 'Jowel', 'Comer', 'Jonet', 'Josel', 'Jaser', 'Joury', 'Boyer', 'Hover', 'Josea', 'Jomel', 'Jeter', 'Jhoel', 'Jodel', 'Homer', 'Joena', 'Jocey', 'Joean', 'Josee', 'Romer', 'Bomer', 'Bower', 'Jafer', 'Jmere', 'Joeen', 'Johar'], 'dlevenshtein': ['Joee', 'Joey', 'Joen', 'Joe', 'Joeb', 'Joei', 'Joel', 'Joed', 'Jer', 'Joes', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Josef', 'Jaber', 'Jowel', 'Comer', 'Jonet', 'Josel', 'Jaser', 'Joury', 'Boyer', 'Hover', 'Josea', 'Jomel', 'Jeter', 'Jhoel', 'Jodel', 'Homer', 'Joena', 'Jocey', 'Joean', 'Josee', 'Romer', 'Bomer', 'Bower', 'Jafer', 'Jmere', 'Joeen', 'Johar'], 'soundex': ['Jariah', 'Jerah', 'Jaryah', 'Jairo', 'Jayra', 'Jora', 'Jahyra', 'Jahriah', 'Jayree', 'Jorawar', 'Jerre', 'Jiaire', 'Jara', 'Jerriyah', 'Jyrah', 'Jera', 'Jary', 'Jahree', 'Jariyah', 'Joury', 'Jireh', 'Jeray', 'Johara', 'Jerry', 'Jairy', 'Jeiry', 'Jerae', 'Jahri', 'Jairee', 'Jario', 'Jawhar', 'Jeria', 'Joriah', 'Jarrah', 'Jayro', 'Jair', 'Jaryiah', 'Jerrie', 'Jerra', 'Jahairy', 'Jahare', 'Jaharee', 'Jaheer', 'Jahray', 'Jahria', 'Jahyr', 'Jarai', 'Jarayah', 'Jarhia', 'Jaro'], 'double_meta': ['Jer', 'Joeray', 'Joury', 'Joory', 'Jouri', 'Joree', 'Jorey', 'Jheri', 'Jorri', 'Jora', 'Jera', 'Jair', 'Jiar', 'Jorrie', 'Jere', 'Jare', 'Jory', 'Jeru', 'Jeri', 'Jori', 'Jr', 'Jrew', 'Jery', 'Jayr', 'Jerah', 'Jairo', 'Jayra', 'Jerre', 'Jireh', 'Jeray', 'Jerry', 'Jairy', 'Jeiry', 'Jerae', 'Jahri', 'Jeria', 'Jayro', 'Jerra', 'Geore', 'Jayar', 'Jeira', 'Jeiri', 'Jerey', 'Jhori', 'Jiara', 'Joray', 'Jaira', 'Jyree', 'Jorah', 'Jaire'], 'inferred_gender': [0, array([0.9691065 , 0.03089357], dtype=float32)]}
+name:  Joer
+name_length:  4
+gender_prediction: (0, array([0.9691065 , 0.03089357], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:04:52] "GET /match/Joer HTTP/1.1" 200 2374
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Joee', 'Jora', 'Jera', 'Jone', 'Jorn', 'Jose', 'Jole', 'Joey', 'Joen', 'Joe', 'Jere', 'Joeb', 'Joei', 'Joye', 'Jory', 'Joel', 'Jeru', 'Joie', 'Jeri', 'Jori', 'Jerl', 'Joed', 'Jode', 'Jer', 'Joes', 'Jobe', 'Jery', 'Jove', 'Joce', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jerah', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Jerid', 'Josef', 'Jozie', 'Jonne', 'Jaber', 'Junor', 'Jerre'], 'levenshtein': ['Joee', 'Joey', 'Joen', 'Joe', 'Joeb', 'Joei', 'Joel', 'Joed', 'Jer', 'Joes', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Josef', 'Jaber', 'Jowel', 'Comer', 'Jonet', 'Josel', 'Jaser', 'Joury', 'Boyer', 'Hover', 'Josea', 'Jomel', 'Jeter', 'Jhoel', 'Jodel', 'Homer', 'Joena', 'Jocey', 'Joean', 'Josee', 'Romer', 'Bomer', 'Bower', 'Jafer', 'Jmere', 'Joeen', 'Johar'], 'dlevenshtein': ['Joee', 'Joey', 'Joen', 'Joe', 'Joeb', 'Joei', 'Joel', 'Joed', 'Jer', 'Joes', 'Joneer', 'Josera', 'Joyner', 'Joemar', 'Jonier', 'Joeray', 'Josejr', 'Jorel', 'Joene', 'Jodey', 'Jomes', 'Jader', 'Jozey', 'Josef', 'Jaber', 'Jowel', 'Comer', 'Jonet', 'Josel', 'Jaser', 'Joury', 'Boyer', 'Hover', 'Josea', 'Jomel', 'Jeter', 'Jhoel', 'Jodel', 'Homer', 'Joena', 'Jocey', 'Joean', 'Josee', 'Romer', 'Bomer', 'Bower', 'Jafer', 'Jmere', 'Joeen', 'Johar'], 'soundex': ['Jariah', 'Jerah', 'Jaryah', 'Jairo', 'Jayra', 'Jora', 'Jahyra', 'Jahriah', 'Jayree', 'Jorawar', 'Jerre', 'Jiaire', 'Jara', 'Jerriyah', 'Jyrah', 'Jera', 'Jary', 'Jahree', 'Jariyah', 'Joury', 'Jireh', 'Jeray', 'Johara', 'Jerry', 'Jairy', 'Jeiry', 'Jerae', 'Jahri', 'Jairee', 'Jario', 'Jawhar', 'Jeria', 'Joriah', 'Jarrah', 'Jayro', 'Jair', 'Jaryiah', 'Jerrie', 'Jerra', 'Jahairy', 'Jahare', 'Jaharee', 'Jaheer', 'Jahray', 'Jahria', 'Jahyr', 'Jarai', 'Jarayah', 'Jarhia', 'Jaro'], 'double_meta': ['Jer', 'Joeray', 'Joury', 'Joory', 'Jouri', 'Joree', 'Jorey', 'Jheri', 'Jorri', 'Jora', 'Jera', 'Jair', 'Jiar', 'Jorrie', 'Jere', 'Jare', 'Jory', 'Jeru', 'Jeri', 'Jori', 'Jr', 'Jrew', 'Jery', 'Jayr', 'Jerah', 'Jairo', 'Jayra', 'Jerre', 'Jireh', 'Jeray', 'Jerry', 'Jairy', 'Jeiry', 'Jerae', 'Jahri', 'Jeria', 'Jayro', 'Jerra', 'Geore', 'Jayar', 'Jeira', 'Jeiri', 'Jerey', 'Jhori', 'Jiara', 'Joray', 'Jaira', 'Jyree', 'Jorah', 'Jaire'], 'inferred_gender': [0, array([0.9691065 , 0.03089357], dtype=float32)]}
+name:  Yangyang
+name_length:  8
+gender_prediction: (0, array([0.8432176 , 0.15678237], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:05:12] "GET /match/Joer HTTP/1.1" 200 2374
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Yaniyah', 'Yanixan', 'Janiyan', 'Olaniyan', 'Yaniya', 'Haoyang', 'Kanyan', 'Taeyang', 'Yuyang', 'Yengkong', 'Yohanan', 'Nancyann', 'Branigan', 'Banyan', 'Yochanan', 'Yiyang', 'Wakinyan', 'Langstyn', 'Pragyan', 'Samnang', 'Dartanyan', 'Tanganika', 'Nancyjean', 'Brandyann', 'Nancyanne', 'Nancyjane', 'Shengyeng', 'Tanyanika', 'Maryangel', 'Evangelyn', 'Juanangel', 'Brannigan', 'Latanya', 'Janiya', 'Danyon', 'Maryland', 'Laconya', 'Quaniya', 'Tangala', 'Vandana', 'Yasmina', 'Chandani', 'Ladanian', 'Randilyn', 'Yaniah', 'Jayana', 'Hanaan', 'Janyra', 'Laylani', 'Yohana'], 'levenshtein': ['Yaniyah', 'Yanixan', 'Janiyan', 'Yaniya', 'Haoyang', 'Kanyan', 'Taeyang', 'Yuyang', 'Yengkong', 'Nancyann', 'Banyan', 'Yiyang', 'Brandyann', 'Nancyanne', 'Nancyjane', 'Shengyeng', 'Janiya', 'Danyon', 'Tangala', 'Vandana', 'Yaniah', 'Jayana', 'Hanaan', 'Rayana', 'Yazlynn', 'Danyale', 'Aariyana', 'Dayane', 'Margan', 'Taegan', 'Kayana', 'Maegan', 'Manya', 'Yaman', 'Vaniyah', 'Raygan', 'Kaiyana', 'Layani', 'Landyn', 'Kenyan', 'Naiyana', 'Sayana', 'Ranya', 'Dayyan', 'Yanilen', 'Fabyan', 'Laneyah', 'Yamaya', 'Lanya', 'Daneya'], 'dlevenshtein': ['Yaniyah', 'Yanixan', 'Janiyan', 'Yaniya', 'Haoyang', 'Kanyan', 'Taeyang', 'Yuyang', 'Yengkong', 'Nancyann', 'Banyan', 'Yiyang', 'Brandyann', 'Nancyanne', 'Nancyjane', 'Shengyeng', 'Janiya', 'Danyon', 'Tangala', 'Vandana', 'Yaniah', 'Jayana', 'Hanaan', 'Rayana', 'Yazlynn', 'Danyale', 'Aariyana', 'Dayane', 'Margan', 'Taegan', 'Kayana', 'Maegan', 'Manya', 'Yaman', 'Vaniyah', 'Raygan', 'Kaiyana', 'Layani', 'Landyn', 'Kenyan', 'Naiyana', 'Sayana', 'Ranya', 'Dayyan', 'Yanilen', 'Fabyan', 'Laneyah', 'Yamaya', 'Lanya', 'Daneya'], 'soundex': ['Yanixan', 'Yengkong', 'Yonason', 'Yunique', 'Yanisley', 'Yanilen', 'Yannick', 'Younique', 'Yunqi', 'Yanesha', 'Yanisse', 'Yoenis', 'Younger', 'Yanky', 'Yanice', 'Yanissa', 'Yenesis', 'Yanisa', 'Yankarlo', 'Yenisel', 'Yensy', 'Yeruchem', 'Yevgeniy', 'Yinessa', 'Yanick', 'Yehonatan', 'Yonic', 'Yamika', 'Yamisha', 'Yanais', 'Yaneisha', 'Yankee', 'Yankel', 'Yanko', 'Yansiel', 'Yanxiel', 'Yarisamar', 'Yarisma', 'Yarismar', 'Yarizmar', 'Yenci', 'Yensid', 'Yerucham', 'Yngwie', 'Yolisma', 'Yonika', 'Yoonseo', 'Yuneicy', 'Yuyang', 'Yunus'], 'double_meta': ['Angenique', 'Anjanique', 'Yaniyah', 'Yanixan', 'Janiyan', 'Yaniya', 'Haoyang', 'Kanyan', 'Taeyang', 'Yuyang', 'Yengkong', 'Nancyann', 'Banyan', 'Yiyang', 'Brandyann', 'Nancyanne', 'Nancyjane', 'Shengyeng', 'Janiya', 'Danyon', 'Tangala', 'Vandana', 'Yaniah', 'Jayana', 'Hanaan', 'Rayana', 'Yazlynn', 'Danyale', 'Aariyana', 'Dayane', 'Margan', 'Taegan', 'Kayana', 'Maegan', 'Manya', 'Yaman', 'Vaniyah', 'Raygan', 'Kaiyana', 'Layani', 'Landyn', 'Kenyan', 'Naiyana', 'Sayana', 'Ranya', 'Dayyan', 'Yanilen', 'Fabyan', 'Laneyah', 'Yamaya'], 'inferred_gender': [0, array([0.8432176 , 0.15678237], dtype=float32)]}
+name:  Peter
+name_length:  5
+gender_prediction: (0, array([0.99767524, 0.00232472], dtype=float32))
+13.54.63.176 - - [24/Apr/2018 04:05:34] "GET /match/yangyang HTTP/1.1" 200 2848
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Peter', 'Pieter', 'Petter', 'Petr', 'Peder', 'Jeter', 'Petar', 'Geter', 'Petre', 'Pete', 'Petey', 'Peer', 'Petie', 'Pater', 'Petro', 'Petra', 'Peteris', 'Pietra', 'Dieter', 'Jester', 'Petrea', 'Petros', 'Paetra', 'Pender', 'Cetera', 'Heater', 'Fester', 'Paeten', 'Petite', 'Petria', 'Petrit', 'Petrus', 'Poetri', 'Peyten', 'Hether', 'Kester', 'Dexter', 'Wester', 'Vester', 'Lether', 'Pepper', 'Pietro', 'Pieper', 'Dester', 'Porter', 'Hester', 'Rether', 'Lester', 'Reiter', 'Nether'], 'levenshtein': ['Peter', 'Pieter', 'Petter', 'Petr', 'Peder', 'Jeter', 'Petar', 'Geter', 'Pete', 'Petey', 'Peer', 'Pater', 'Peteris', 'Dieter', 'Jester', 'Petrea', 'Pender', 'Cetera', 'Heater', 'Fester', 'Paeten', 'Peyten', 'Hether', 'Kester', 'Dexter', 'Wester', 'Vester', 'Lether', 'Pepper', 'Pieper', 'Dester', 'Porter', 'Hester', 'Rether', 'Lester', 'Reiter', 'Nether', 'Nester', 'Netter', 'Peterson', 'Lener', 'Weber', 'Leler', 'Heder', 'Pacer', 'Mete', 'Rever', 'Meier', 'Pear', 'Peta'], 'dlevenshtein': ['Peter', 'Pieter', 'Petter', 'Petr', 'Peder', 'Jeter', 'Petar', 'Geter', 'Petre', 'Pete', 'Petey', 'Peer', 'Pater', 'Peteris', 'Dieter', 'Jester', 'Petrea', 'Pender', 'Cetera', 'Heater', 'Fester', 'Paeten', 'Peyten', 'Hether', 'Kester', 'Dexter', 'Wester', 'Vester', 'Lether', 'Pepper', 'Pieper', 'Dester', 'Porter', 'Hester', 'Rether', 'Lester', 'Reiter', 'Nether', 'Nester', 'Netter', 'Peterson', 'Lener', 'Weber', 'Leler', 'Heder', 'Pacer', 'Mete', 'Rever', 'Meier', 'Pear'], 'soundex': ['Pieter', 'Pietra', 'Petr', 'Pedro', 'Phaidra', 'Peder', 'Piotr', 'Petrea', 'Paetra', 'Peter', 'Petter', 'Patra', 'Petar', 'Padro', 'Petre', 'Petria', 'Poetri', 'Patria', 'Phedra', 'Pietro', 'Phaedra', 'Pader', 'Pater', 'Pheadra', 'Petro', 'Phadra', 'Petra', 'Pedra', 'Poetry', 'Patrea', 'Patrcia', 'Pedrohenrique', 'Padme', 'Patryk', 'Pattie', 'Padraic', 'Patte', 'Patirica', 'Patrena', 'Patrica', 'Peityn', 'Pattrick', 'Pattijo', 'Pattricia', 'Patriece', 'Paton', 'Pietrina', 'Peat', 'Paetyn', 'Pacer'], 'double_meta': ['Peter', 'Pieter', 'Petter', 'Petr', 'Peder', 'Petar', 'Petre', 'Pater', 'Petrea', 'Pader', 'Petro', 'Petra', 'Pietra', 'Paetra', 'Petria', 'Poetri', 'Pietro', 'Poetry', 'Patrea', 'Pedro', 'Piotr', 'Patra', 'Bedar', 'Bader', 'Pedra', 'Patria', 'Padro', 'Badr', 'Badhir', 'Bowdrie', 'Beather', 'Jeter', 'Geter', 'Pete', 'Petey', 'Peer', 'Peteris', 'Dieter', 'Jester', 'Pender', 'Cetera', 'Heater', 'Fester', 'Paeten', 'Peyten', 'Hether', 'Kester', 'Dexter', 'Wester', 'Vester'], 'inferred_gender': [0, array([0.99767524, 0.00232472], dtype=float32)]}
+name:  Tony
+name_length:  4
+gender_prediction: (0, array([0.875583  , 0.12441698], dtype=float32))
+13.54.63.176 - - [24/Apr/2018 04:05:56] "GET /match/Peter HTTP/1.1" 200 2567
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Teon', 'Tnya', 'Tory', 'Tyon', 'Tron', 'Mony', 'Thon', 'Twon', 'Tone', 'Tomy', 'Tion', 'Toan', 'Toya', 'Toye', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Troy', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Turon', 'Teron', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tywon', 'Tenya'], 'levenshtein': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Tory', 'Mony', 'Tone', 'Tomy', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tenya', 'Lonzy', 'Conye', 'Tonta', 'Tonna', 'Toddy', 'Zonya', 'Tunny', 'Tonja', 'Money', 'Monya', 'Conya', 'Lonya', 'Tonea', 'Sonya'], 'dlevenshtein': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Tory', 'Mony', 'Tone', 'Tomy', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tenya', 'Lonzy', 'Conye', 'Tonta', 'Tonna', 'Toddy', 'Zonya', 'Tunny', 'Tonja', 'Money', 'Monya', 'Conya', 'Lonya', 'Tonea', 'Sonya'], 'soundex': ['Toni', 'Tani', 'Tenia', 'Teana', 'Tinnie', 'Taima', 'Tiawanna', 'Tam', 'Taino', 'Teon', 'Tammee', 'Tahnee', 'Tana', 'Tenaya', 'Thien', 'Tenee', 'Tomie', 'Timmia', 'Tawna', 'Tyann', 'Tayna', 'Tawnie', 'Toniyah', 'Teona', 'Tamana', 'Taniah', 'Tyannah', 'Tonny', 'Toini', 'Thom', 'Timmey', 'Tinie', 'Tim', 'Tywon', 'Tamaiya', 'Tawonna', 'Tenya', 'Tena', 'Towana', 'Tanaia', 'Tanayia', 'Tiaunna', 'Tamona', 'Taniyia', 'Tomm', 'Taiwan', 'Tonna', 'Tawona', 'Thoma', 'Tnya'], 'double_meta': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Tonya', 'Toni', 'Tone', 'Tany', 'Ton', 'Dony', 'Tiny', 'Tona', 'Teny', 'Tonnya', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Toini', 'Tenya', 'Tonna', 'Tunny', 'Tonea', 'Tenay', 'Tanay', 'Tawny', 'Tenny', 'Tonoa', 'Tonio', 'Tyona', 'Tiney', 'Tonie', 'Toyna', 'Tonni', 'Tunya', 'Donye', 'Diony', 'Tyone', 'Donya', 'Tonia', 'Tanny', 'Tonee', 'Tonii', 'Teoni', 'Tinya', 'Tinny', 'Donny', 'Tanya'], 'inferred_gender': [0, array([0.875583  , 0.12441698], dtype=float32)]}
+name:  Bitcoin
+name_length:  7
+gender_prediction: (0, array([0.9892307 , 0.01076936], dtype=float32))
+13.54.63.164 - - [24/Apr/2018 04:06:13] "GET /match/Tony HTTP/1.1" 200 2354
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Britian', 'Brinton', 'Britain', 'Britiny', 'Britton', 'Briton', 'Brixtin', 'Briston', 'Britini', 'Brittin', 'Bristin', 'Brixton', 'Britiney', 'Binyomin', 'Brittian', 'Brigston', 'Brittini', 'Brittiny', 'Breitlin', 'Brittina', 'Briceton', 'Brittain', 'Nicolino', 'Brittine', 'Brittoni', 'Nicoline', 'Brittony', 'Brighton', 'Britiany', 'Briceson', 'Nicolina', 'Britinee', 'Britainy', 'Bastian', 'Betina', 'Criston', 'Brison', 'Clinton', 'Britnie', 'Birtie', 'Barton', 'Mistina', 'Tristin', 'Liston', 'Nilton', 'Aitlin', 'Benton', 'Bastion', 'Breiona', 'Bristyn'], 'levenshtein': ['Binyomin', 'Brittain', 'Aitlin', 'Bijon', 'Brycon', 'Britain', 'Lincon', 'Nitin', 'Biron', 'Britton', 'Antoin', 'Briton', 'Bitania', 'Bilon', 'Kitson', 'Lincoln', 'Ritchie', 'Nithin', 'Antwoin', 'Birchie', 'Brittin', 'Brycin', 'Bitia', 'Bion', 'Brecon', 'Breckin', 'Bison', 'Brittainy', 'Brittaini', 'Giacomina', 'Brittian', 'Caitlain', 'Brittini', 'Binyamin', 'Brittiny', 'Anthoine', 'Breitlin', 'Brittnii', 'Hutchins', 'Kaithlin', 'Britanie', 'Brittina', 'Caitilin', 'Gretchin', 'Vitalina', 'Nicolino', 'Brittine', 'Kaitlain', 'Brittoni', 'Nicoline'], 'dlevenshtein': ['Binyomin', 'Brittain', 'Brittoni', 'Aitlin', 'Bijon', 'Bictor', 'Brycon', 'Britain', 'Lincon', 'Nitin', 'Biron', 'Britton', 'Antoin', 'Briton', 'Bitania', 'Billion', 'Bilon', 'Kitson', 'Lincoln', 'Ritchie', 'Nithin', 'Antwoin', 'Birchie', 'Brittin', 'Brycin', 'Bitia', 'Bion', 'Brecon', 'Breckin', 'Bison', 'Victorian', 'Victorine', 'Brittainy', 'Brittaini', 'Giacomina', 'Victorino', 'Victorina', 'Brittian', 'Caitlain', 'Brittini', 'Binyamin', 'Brittiny', 'Britanni', 'Victoire', 'Anthoine', 'Breitlin', 'Brittnii', 'Hutchins', 'Kaithlin', 'Rictoria'], 'soundex': ['Bettyjane', 'Bettejane', 'Bettyjean', 'Bettijane', 'Bettejean', 'Bates', 'Broghan', 'Brison', 'Benigna', 'Betzy', 'Betzaira', 'Bonniejean', 'Benson', 'Bensyn', 'Bricen', 'Brekyn', 'Benzion', 'Brysyn', 'Blessings', 'Braeson', 'Benzino', 'Betzhy', 'Brajon', 'Betsabe', 'Betsaida', 'Bettyjo', 'Brazen', 'Bracen', 'Bricyn', 'Benjamin', 'Barkim', 'Behtzy', 'Bersain', 'Brishen', 'Brycon', 'Braxen', 'Braxson', 'Bingham', 'Breckyn', 'Bailasan', 'Bethlyn', 'Brayshawn', 'Breighana', 'Brekkin', 'Brezhane', 'Brigina', 'Brisna', 'Brookann', 'Brysun', 'Bracken'], 'double_meta': ['Binyomin', 'Brittain', 'Brittoni', 'Aitlin', 'Bijon', 'Bictor', 'Brycon', 'Britain', 'Lincon', 'Nitin', 'Biron', 'Britton', 'Antoin', 'Briton', 'Bitania', 'Billion', 'Bilon', 'Kitson', 'Lincoln', 'Ritchie', 'Nithin', 'Antwoin', 'Birchie', 'Brittin', 'Brycin', 'Bitia', 'Bion', 'Brecon', 'Breckin', 'Bison', 'Victorian', 'Victorine', 'Brittainy', 'Brittaini', 'Giacomina', 'Victorino', 'Victorina', 'Brittian', 'Caitlain', 'Brittini', 'Binyamin', 'Brittiny', 'Britanni', 'Victoire', 'Anthoine', 'Breitlin', 'Brittnii', 'Hutchins', 'Kaithlin', 'Rictoria'], 'inferred_gender': [0, array([0.9892307 , 0.01076936], dtype=float32)]}
+name:  Tony
+name_length:  4
+gender_prediction: (0, array([0.875583  , 0.12441698], dtype=float32))
+13.54.63.161 - - [24/Apr/2018 04:06:55] "GET /match/Bitcoin HTTP/1.1" 200 2926
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Teon', 'Tnya', 'Tory', 'Tyon', 'Tron', 'Mony', 'Thon', 'Twon', 'Tone', 'Tomy', 'Tion', 'Toan', 'Toya', 'Toye', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Troy', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Turon', 'Teron', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tywon', 'Tenya'], 'levenshtein': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Tory', 'Mony', 'Tone', 'Tomy', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tenya', 'Lonzy', 'Conye', 'Tonta', 'Tonna', 'Toddy', 'Zonya', 'Tunny', 'Tonja', 'Money', 'Monya', 'Conya', 'Lonya', 'Tonea', 'Sonya'], 'dlevenshtein': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Thony', 'Tonya', 'Toni', 'Tory', 'Mony', 'Tone', 'Tomy', 'Toby', 'Tong', 'Tany', 'Sony', 'Ton', 'Jony', 'Dony', 'Tiny', 'Yony', 'Rony', 'Tona', 'Toy', 'Teny', 'Tonnya', 'Tonyna', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Roney', 'Toini', 'Vonya', 'Tenya', 'Lonzy', 'Conye', 'Tonta', 'Tonna', 'Toddy', 'Zonya', 'Tunny', 'Tonja', 'Money', 'Monya', 'Conya', 'Lonya', 'Tonea', 'Sonya'], 'soundex': ['Toni', 'Tani', 'Tenia', 'Teana', 'Tinnie', 'Taima', 'Tiawanna', 'Tam', 'Taino', 'Teon', 'Tammee', 'Tahnee', 'Tana', 'Tenaya', 'Thien', 'Tenee', 'Tomie', 'Timmia', 'Tawna', 'Tyann', 'Tayna', 'Tawnie', 'Toniyah', 'Teona', 'Tamana', 'Taniah', 'Tyannah', 'Tonny', 'Toini', 'Thom', 'Timmey', 'Tinie', 'Tim', 'Tywon', 'Tamaiya', 'Tawonna', 'Tenya', 'Tena', 'Towana', 'Tanaia', 'Tanayia', 'Tiaunna', 'Tamona', 'Taniyia', 'Tomm', 'Taiwan', 'Tonna', 'Tawona', 'Thoma', 'Tnya'], 'double_meta': ['Tony', 'Tonny', 'Tonay', 'Tonye', 'Toney', 'Tonya', 'Toni', 'Tone', 'Tany', 'Ton', 'Dony', 'Tiny', 'Tona', 'Teny', 'Tonnya', 'Tonyua', 'Tonyia', 'Toniya', 'Tonaya', 'Teona', 'Toini', 'Tenya', 'Tonna', 'Tunny', 'Tonea', 'Tenay', 'Tanay', 'Tawny', 'Tenny', 'Tonoa', 'Tonio', 'Tyona', 'Tiney', 'Tonie', 'Toyna', 'Tonni', 'Tunya', 'Donye', 'Diony', 'Tyone', 'Donya', 'Tonia', 'Tanny', 'Tonee', 'Tonii', 'Teoni', 'Tinya', 'Tinny', 'Donny', 'Tanya'], 'inferred_gender': [0, array([0.875583  , 0.12441698], dtype=float32)]}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+54.240.152.84 - - [24/Apr/2018 04:14:47] "POST /match/Tony HTTP/1.1" 200 2354
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    import demo
+  File "/home/xiaor/wsgiref_example/demo.py", line 98
+    print(time.time()-start,"s", sep="")
+                                    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    import demo
+  File "/home/xiaor/wsgiref_example/demo.py", line 98
+    print(time.time()-start,"s", sep="")
+                                    ^
+SyntaxError: invalid syntax
+2018-04-26 03:33:54.732248: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+name:  Ran
+name_length:  3
+gender_prediction: (0, array([0.96702486, 0.03297515], dtype=float32))
+/home/xiaor/wsgiref_example/venv/lib64/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Rya', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Ria', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Rea', 'Rua', 'Ren', 'Rin', 'Rad'], 'levenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'dlevenshtein': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Rand', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ra', 'Lan', 'Ram', 'Yan', 'Zan', 'Kan', 'Ral', 'Ryn', 'Tan', 'Jan', 'Han', 'Ean', 'Ras', 'Can', 'Ron', 'Raz', 'Van', 'Ian', 'Rae', 'Ray', 'Man', 'Raj', 'San', 'Rai', 'Fan', 'Ren', 'Rin', 'Rad', 'Xan', 'Dan', 'Nan', 'Wan'], 'soundex': ['Reyonna', 'Rennie', 'Roena', 'Rayna', 'Rehema', 'Reina', 'Rayen', 'Raina', 'Rien', 'Rowin', 'Remo', 'Rayana', 'Raiana', 'Romin', 'Rohan', 'Ronan', 'Ryan', 'Ruhani', 'Ranay', 'Rayonna', 'Ryann', 'Roney', 'Reniah', 'Reyann', 'Rianne', 'Rainn', 'Rahma', 'Rainy', 'Ramy', 'Ran', 'Rein', 'Ranya', 'Renai', 'Riham', 'Ruhama', 'Ryane', 'Rhayne', 'Romyn', 'Ryonna', 'Raheim', 'Raymon', 'Riannah', 'Rainen', 'Ramiyah', 'Roma', 'Rihan', 'Rim', 'Ryoma', 'Ramon', 'Rhian'], 'double_meta': ['Ran', 'Ryan', 'Raen', 'Rean', 'Rayn', 'Rian', 'Rana', 'Rahn', 'Ruan', 'Rwan', 'Rain', 'Rany', 'Rane', 'Rani', 'Roan', 'Raun', 'Rawn', 'Ryn', 'Ron', 'Ren', 'Rin', 'Rayna', 'Rayen', 'Raina', 'Ranay', 'Ryann', 'Rainn', 'Rainy', 'Ranya', 'Ryane', 'Rhian', 'Reana', 'Riann', 'Riaan', 'Ranea', 'Ryian', 'Ranna', 'Riane', 'Rayne', 'Raana', 'Raene', 'Rahna', 'Raian', 'Ranaa', 'Rauni', 'Ruann', 'Ryahn', 'Ryean', 'Reann', 'Rayan'], 'inferred_gender': {'gender': 0, 'proba': [0.96702486, 0.032975152]}}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+127.0.0.1 - - [26/Apr/2018 03:33:59] "GET /match/Ran HTTP/1.1" 200 2128
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.99045664, 0.00954334]}}
+{}
+name:  Kian
+name_length:  4
+gender_prediction: (0, array([0.953252  , 0.04674796], dtype=float32))
+13.54.63.164 - - [26/Apr/2018 03:34:26] "GET /match/damian HTTP/1.1" 200 2716
+13.54.63.176 - - [26/Apr/2018 03:34:26] "GET /favicon.ico HTTP/1.1" 500 2
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Kian', 'Kiwan', 'Kyian', 'Kiano', 'Kaian', 'Kilan', 'Kivan', 'Khian', 'Kiean', 'Kisan', 'Kiane', 'Kiaan', 'Kiany', 'Keian', 'Kiana', 'Kiran', 'Kiann', 'Kinan', 'Kianu', 'Kiyan', 'Kiani', 'Kayn', 'Kyia', 'Kano', 'Kaia', 'Kiam', 'Kila', 'Kean', 'Kein', 'Kine', 'Sian', 'Khia', 'Kia', 'Kion', 'Kana', 'Kiva', 'Nian', 'Kaan', 'Kan', 'Kiba', 'Knia', 'Keia', 'Kisa', 'Mian', 'Dian', 'Kani', 'Kida', 'Aian', 'Kaen', 'Kaon'], 'levenshtein': ['Kian', 'Kiwan', 'Kyian', 'Kiano', 'Kaian', 'Kilan', 'Kivan', 'Khian', 'Kiean', 'Kisan', 'Kiane', 'Kiaan', 'Kiany', 'Keian', 'Kiana', 'Kiran', 'Kiann', 'Kinan', 'Kianu', 'Kiyan', 'Kiani', 'Kiam', 'Kean', 'Sian', 'Kia', 'Kion', 'Nian', 'Kaan', 'Kan', 'Mian', 'Dian', 'Aian', 'Kias', 'Kwan', 'Koan', 'Rian', 'Jian', 'Zian', 'Kien', 'Gian', 'Khan', 'Kyan', 'Kiah', 'Yian', 'Cian', 'Kin', 'Kuan', 'Xian', 'Tian', 'Kiai'], 'dlevenshtein': ['Kian', 'Kiwan', 'Kyian', 'Kiano', 'Kaian', 'Kilan', 'Kivan', 'Khian', 'Kiean', 'Kisan', 'Kiane', 'Kiaan', 'Kiany', 'Keian', 'Kiana', 'Kiran', 'Kiann', 'Kinan', 'Kianu', 'Kiyan', 'Kiani', 'Kiam', 'Kean', 'Sian', 'Kia', 'Kion', 'Nian', 'Kaan', 'Kan', 'Mian', 'Dian', 'Aian', 'Kias', 'Kwan', 'Koan', 'Rian', 'Jian', 'Zian', 'Kien', 'Gian', 'Khan', 'Kyan', 'Kiah', 'Kain', 'Yian', 'Cian', 'Kin', 'Kuan', 'Xian', 'Tian'], 'soundex': ['Kenna', 'Keianna', 'Kiwanna', 'Kayn', 'Kenyia', 'Kiwan', 'Kanon', 'Kawana', 'Kimiyo', 'Keywon', 'Kayanna', 'Kaimani', 'Kano', 'Kayana', 'Kiam', 'Kunio', 'Kieon', 'Kaymin', 'Kamee', 'Keino', 'Khayman', 'Kemia', 'Keiona', 'Kaiyana', 'Koehn', 'Kammie', 'Kean', 'Khaniyah', 'Kyian', 'Kami', 'Kenyan', 'Kein', 'Keeyon', 'Kniyah', 'Kimo', 'Kamau', 'Kanoe', 'Kiyani', 'Kamea', 'Kiano', 'Kahan', 'Kahniyah', 'Kaniyha', 'Kenah', 'Keymia', 'Khemani', 'Kimwana', 'Kine', 'Konyae', 'Kimaya'], 'double_meta': ['Kian', 'Kiwan', 'Kyian', 'Kiano', 'Kaian', 'Khian', 'Kiean', 'Kiane', 'Kiaan', 'Kiany', 'Keian', 'Kiana', 'Kiann', 'Kianu', 'Kiyan', 'Kiani', 'Kean', 'Kion', 'Kaan', 'Kan', 'Kwan', 'Koan', 'Kien', 'Khan', 'Kyan', 'Kain', 'Kin', 'Kuan', 'Qian', 'Kina', 'Kiyani', 'Kianna', 'Khiyan', 'Kaiann', 'Kiyann', 'Kiyaan', 'Kyiana', 'Keiann', 'Kiania', 'Kiawna', 'Kiwane', 'Kiauna', 'Kiahna', 'Kianne', 'Kianny', 'Khiana', 'Kianah', 'Kiwana', 'Keiwan', 'Keiani'], 'inferred_gender': {'gender': 0, 'proba': [0.953252, 0.046747956]}}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+13.54.63.161 - - [26/Apr/2018 03:34:51] "GET /match/Kian HTTP/1.1" 200 2328
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+/home/xiaor/wsgiref_example/venv/lib64/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "main.py", line 34, in <module>
+    httpd = make_server('0.0.0.0', 8000, application)
+  File "/usr/lib64/python3.6/wsgiref/simple_server.py", line 153, in make_server
+    server = server_class((host, port), handler_class)
+  File "/usr/lib64/python3.6/socketserver.py", line 453, in __init__
+    self.server_bind()
+  File "/usr/lib64/python3.6/wsgiref/simple_server.py", line 50, in server_bind
+    HTTPServer.server_bind(self)
+  File "/usr/lib64/python3.6/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib64/python3.6/socketserver.py", line 467, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "main.py", line 2, in <module>
+    import demo
+  File "/home/xiaor/wsgiref_example/demo.py", line 98
+    print(time.time()-start,"s", sep="")
+                                    ^
+SyntaxError: invalid syntax
+2018-04-26 06:31:55.296100: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+http_origin: None
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'GET', 'PATH_INFO': '/match/Nick', 'QUERY_STRING': '', 'REMOTE_ADDR': '13.54.63.161', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': 'LAJIXW73uY2AFfCpVKJLFjV8TzFiKwtxQuhptEt5vP2HZBeZ7QiD4Q==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 74b217f6de96253e0ed5551fd50bc165.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Nick
+name_length:  4
+gender_prediction: (0, array([0.96937436, 0.03062566], dtype=float32))
+/home/xiaor/wsgiref_example/venv/lib64/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Nick', 'Nicky', 'Nicki', 'Nicko', 'Nico', 'Rick', 'Nic', 'Niki', 'Niko', 'Vick', 'Nicy', 'Dick', 'Mick', 'Nica', 'Nika', 'Wick', 'Nik', 'Nike', 'Nickos', 'Nickon', 'Nerick', 'Nickki', 'Nickie', 'Nickan', 'Nickia', 'Nickol', 'Nickea', 'Nickey', 'Nickai', 'Nikai', 'Dicky', 'Nicey', 'Ricka', 'Arick', 'Naika', 'Nicle', 'Nicha', 'Nicco', 'Nikol', 'Nimco', 'Chick', 'Hicks', 'Nikos', 'Erick', 'Alick', 'Nicoe', 'Nieco', 'Nikul', 'Nicia', 'Vicky'], 'levenshtein': ['Nick', 'Nicky', 'Nicki', 'Nicko', 'Nico', 'Rick', 'Nic', 'Vick', 'Nicy', 'Dick', 'Mick', 'Nica', 'Wick', 'Nik', 'Nickos', 'Nickon', 'Nerick', 'Nickki', 'Nickie', 'Nickan', 'Nickia', 'Nickol', 'Nickea', 'Nickey', 'Nickai', 'Dicky', 'Nicey', 'Ricka', 'Arick', 'Nicle', 'Nicha', 'Nicco', 'Nimco', 'Chick', 'Hicks', 'Erick', 'Alick', 'Nicoe', 'Nieco', 'Nicia', 'Vicky', 'Ricko', 'Dicki', 'Necko', 'Niche', 'Nicho', 'Nincy', 'Nirek', 'Ricks', 'Ricki'], 'dlevenshtein': ['Nick', 'Nicky', 'Nicki', 'Nicko', 'Nico', 'Rick', 'Nic', 'Vick', 'Nicy', 'Dick', 'Mick', 'Nica', 'Wick', 'Nik', 'Nickos', 'Nickon', 'Nerick', 'Nickki', 'Nickie', 'Nickan', 'Nickia', 'Nickol', 'Nickea', 'Nickey', 'Nickai', 'Dicky', 'Nicey', 'Ricka', 'Arick', 'Nicle', 'Nicha', 'Nicco', 'Nimco', 'Chick', 'Hicks', 'Erick', 'Alick', 'Nicoe', 'Nieco', 'Nicia', 'Vicky', 'Ricko', 'Dicki', 'Necko', 'Niche', 'Nicho', 'Nincy', 'Nirek', 'Ricks', 'Ricki'], 'soundex': ['Nykia', 'Nikai', 'Nico', 'Nash', 'Nesa', 'Nyoka', 'Nicey', 'Najeh', 'Nagi', 'Nekaya', 'Neziah', 'Naesha', 'Naika', 'Nessie', 'Nakia', 'Nicha', 'Nessa', 'Niasia', 'Nicco', 'Nashiya', 'Nesiah', 'Nija', 'Nekia', 'Neshia', 'Nyx', 'Nakeya', 'Nox', 'Nazayah', 'Neci', 'Neecy', 'Nyquasia', 'Nekeya', 'Nic', 'Nisaiah', 'Najiyah', 'Nakeyia', 'Nagee', 'Nikash', 'Nikos', 'Nicky', 'Nikkie', 'Nykiah', 'Nasya', 'Nyazia', 'Nakasia', 'Nazya', 'Nesochi', 'Nickos', 'Nikiea', 'Neko'], 'double_meta': ['Nick', 'Nicky', 'Nicki', 'Nicko', 'Nico', 'Nic', 'Nica', 'Nik', 'Nickie', 'Nickia', 'Nickea', 'Nickey', 'Nickai', 'Nicco', 'Nicoe', 'Nieco', 'Necko', 'Nikka', 'Nikki', 'Nikko', 'Nieka', 'Nieko', 'Nikky', 'Nioka', 'Nickeya', 'Nickiya', 'Nikkie', 'Niki', 'Niko', 'Nicoya', 'Niakia', 'Nicaya', 'Niekia', 'Nikkei', 'Nikkea', 'Niyoka', 'Nikkii', 'Nika', 'Neco', 'Nikkia', 'Nickiyah', 'Nike', 'Nikkiah', 'Nikkiya', 'Nikkeya', 'Nikai', 'Nyoka', 'Naika', 'Naoko', 'Nkiya'], 'inferred_gender': {'gender': 0, 'proba': [0.9693743586540222, 0.030625663697719574]}}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '22', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'POST', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': 'FAhSpCK8dxtC5tXsf9f_3glmOqoJBfx2Rn-bBL02FSt1J7YROIARwQ==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 4ad79fb27f97920699ae3d6638cb5a33.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ORIGIN': 'http://localhost:9966', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+13.54.63.161 - - [26/Apr/2018 06:32:00] "GET /match/Nick HTTP/1.1" 200 2436
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.9904566407203674, 0.009543339721858501]}}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'OPTIONS', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': '0OcfpPKuaNiDO26Ry4vo2NHYtwNef6uwMAwRjPNF5QdizpMDwcAJPw==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 4ad79fb27f97920699ae3d6638cb5a33.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'POST', 'HTTP_ORIGIN': 'http://localhost:9966', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'content-type', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+54.240.152.84 - - [26/Apr/2018 06:34:30] "POST /match/damian HTTP/1.1" 200 2734
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+2018-04-26 06:41:42.360074: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+http_origin: None
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'GET', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '13.54.63.164', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': '7ACw6MOBSopwtMCIuMLfjtT8NDslyNCo8wh2LTmaBs6s2pgxUiFMew==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 ed2825b48bb51b4febd93a82e71f7ed9.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+/home/xiaor/wsgiref_example/venv/lib64/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.9904566407203674, 0.009543339721858501]}}
+http_origin: None
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'GET', 'PATH_INFO': '/favicon.ico', 'QUERY_STRING': '', 'REMOTE_ADDR': '13.54.63.176', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': 'm5hdU62jBxYzap3bj4ds_3X4s_nVYYu1Tt30oikreMretCD8GYfYdg==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 ed2825b48bb51b4febd93a82e71f7ed9.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+{}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'OPTIONS', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': '2Hiv3NkNT0vccW0LK6fFN-A5MCDAAjWD6EhjUN5s63pPvUi0_7mZKg==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 284d225e590e6583c457dc0182ee6fe7.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'POST', 'HTTP_ORIGIN': 'http://localhost:9966', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'content-type', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+13.54.63.164 - - [26/Apr/2018 06:41:48] "GET /match/damian HTTP/1.1" 200 2734
+13.54.63.176 - - [26/Apr/2018 06:41:49] "GET /favicon.ico HTTP/1.1" 500 2
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.9904566407203674, 0.009543339721858501]}}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '21', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'POST', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'application/json', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': '8VDdZoo0TtyXrXlgos80wPSYGtgY0--Rlxplnb_LzimLgWlWOLhoMw==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 284d225e590e6583c457dc0182ee6fe7.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ORIGIN': 'http://localhost:9966', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+54.240.152.84 - - [26/Apr/2018 06:42:18] "OPTIONS /match/damian HTTP/1.1" 200 2734
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.9904566407203674, 0.009543339721858501]}}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'OPTIONS', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'text/plain', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': '9d9sptG8F3kbIJvhiN-9SQzhSp2hbzUlEjzio8-4mBqVzNxTjNs7hw==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 284d225e590e6583c457dc0182ee6fe7.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ACCESS_CONTROL_REQUEST_METHOD': 'POST', 'HTTP_ORIGIN': 'http://localhost:9966', 'HTTP_ACCESS_CONTROL_REQUEST_HEADERS': 'content-type', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+54.240.152.84 - - [26/Apr/2018 06:42:25] "POST /match/damian HTTP/1.1" 200 2734
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+{'lcs': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiana', 'Damany', 'Daiman', 'Damiya', 'Daman', 'Damica', 'Dasian', 'Danian', 'Damien', 'Damin', 'Dainan', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Damini', 'Jamian', 'Damine', 'Damika', 'Damain', 'Daiyan', 'Daigan', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Damani', 'Damira', 'Demian', 'Daian', 'Daymin', 'Damion', 'Damyia', 'Damita'], 'levenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian', 'Deavian', 'Damaiah', 'Damiene'], 'dlevenshtein': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Damia', 'Daiman', 'Daman', 'Dasian', 'Danian', 'Damien', 'Damin', 'Damiam', 'Damina', 'Damiun', 'Domian', 'Davian', 'Damean', 'Jamian', 'Damain', 'Damyan', 'Damiah', 'Dacian', 'Dalian', 'Demian', 'Daian', 'Damion', 'Darian', 'Zamian', 'Damarian', 'Damorian', 'Damianna', 'Damione', 'Dayvian', 'Jaymian', 'Dameion', 'Damyiah', 'Damiyah', 'Daimion', 'Daviana', 'Jamiann', 'Dadrian'], 'soundex': ['Dyann', 'Dyanne', 'Dwana', 'Danyon', 'Dohn', 'Damia', 'Dionne', 'Deionna', 'Demyah', 'Denine', 'Damione', 'Diamone', 'Donie', 'Dianne', 'Daiana', 'Danah', 'Daana', 'Dayane', 'Denee', 'Diannie', 'Domino', 'Danyia', 'Deannie', 'Duuna', 'Dannie', 'Damany', 'Dino', 'Dameion', 'Daymein', 'Deyani', 'Damyn', 'Deaunna', 'Diannah', 'Donnae', 'Dwyne', 'Deauna', 'Donna', 'Damoni', 'Demon', 'Dayyan', 'Deiona', 'Dayami', 'Diyana', 'Dewain', 'Dawneen', 'Duna', 'Dyian', 'Damian', 'Dawan', 'Dema'], 'double_meta': ['Damian', 'Damiean', 'Dammian', 'Damiana', 'Damiyan', 'Daymian', 'Damiani', 'Damiano', 'Damiane', 'Daimian', 'Dameian', 'Daemian', 'Damiann', 'Daiman', 'Daman', 'Damien', 'Damin', 'Damina', 'Damiun', 'Domian', 'Damean', 'Damain', 'Damyan', 'Demian', 'Damion', 'Damianna', 'Damione', 'Dameion', 'Daimion', 'Damiene', 'Deymian', 'Daymien', 'Damiyon', 'Damaine', 'Daimyan', 'Damieon', 'Daymion', 'Dammion', 'Daemien', 'Daimien', 'Daemion', 'Demiana', 'Domiano', 'Damany', 'Damyn', 'Dammon', 'Dymin', 'Daimon', 'Damon', 'Demyan'], 'inferred_gender': {'gender': 0, 'proba': [0.9904566407203674, 0.009543339721858501]}}
+http_origin: http://localhost:9966
+{'LESS_TERMCAP_mb': '\x1b[01;31m', 'HOSTNAME': 'match01.dev02.storm.team', 'LESS_TERMCAP_md': '\x1b[01;38;5;208m', 'SELINUX_ROLE_REQUESTED': '', 'LESS_TERMCAP_me': '\x1b[0m', 'TERM': 'xterm-256color', 'SHELL': '/bin/bash', 'HISTSIZE': '1000', 'EC2_AMITOOL_HOME': '/opt/aws/amitools/ec2', 'SSH_CLIENT': '10.10.120.19 55808 22', 'SELINUX_USE_CURRENT_RANGE': '', 'OLDPWD': '/home/xiaor', 'LESS_TERMCAP_ue': '\x1b[0m', 'SSH_TTY': '/dev/pts/1', 'USER': 'xiaor', 'LS_COLORS': 'rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:', 'EC2_HOME': '/opt/aws/apitools/ec2', 'VIRTUAL_ENV': '/home/xiaor/wsgiref_example/venv', 'LESS_TERMCAP_us': '\x1b[04;38;5;111m', 'MAIL': '/var/spool/mail/xiaor', 'PATH': '/home/xiaor/wsgiref_example/venv/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/aws/bin:/opt/puppetlabs/bin:/home/xiaor/.local/bin:/home/xiaor/bin', 'PWD': '/home/xiaor/wsgiref_example', 'JAVA_HOME': '/usr/lib/jvm/jre', 'AWS_CLOUDWATCH_HOME': '/opt/aws/apitools/mon', 'LANG': 'en_AU.UTF-8', 'PS1': '(venv) [\\u@${HOSTNAME%.storm.team} \\W]\\$ ', 'SELINUX_LEVEL_REQUESTED': '', 'HISTCONTROL': 'ignoredups', 'SHLVL': '1', 'HOME': '/home/xiaor', 'AWS_PATH': '/opt/aws', 'AWS_AUTO_SCALING_HOME': '/opt/aws/apitools/as', 'LOGNAME': 'xiaor', 'AWS_ELB_HOME': '/opt/aws/apitools/elb', 'SSH_CONNECTION': '10.10.120.19 55808 10.10.120.156 22', 'LESSOPEN': '||/usr/bin/lesspipe.sh %s', 'LESS_TERMCAP_se': '\x1b[0m', '_': '/usr/bin/nohup', 'SERVER_NAME': 'ip-10-10-120-156.ap-southeast-2.compute.internal', 'GATEWAY_INTERFACE': 'CGI/1.1', 'SERVER_PORT': '8000', 'REMOTE_HOST': '', 'CONTENT_LENGTH': '21', 'SCRIPT_NAME': '', 'SERVER_PROTOCOL': 'HTTP/1.1', 'SERVER_SOFTWARE': 'WSGIServer/0.2', 'REQUEST_METHOD': 'POST', 'PATH_INFO': '/match/damian', 'QUERY_STRING': '', 'REMOTE_ADDR': '54.240.152.84', 'CONTENT_TYPE': 'application/json', 'HTTP_HOST': 'namematch.dev02.storm.team', 'HTTP_X_AMZ_CF_ID': 'Gasi6DJztjkeqLBn0XJyYotXXDqUnlZFGuRlrIv5JSLavLdJccahFQ==', 'HTTP_CONNECTION': 'Keep-Alive', 'HTTP_USER_AGENT': 'Amazon CloudFront', 'HTTP_VIA': '2.0 284d225e590e6583c457dc0182ee6fe7.cloudfront.net (CloudFront)', 'HTTP_X_FORWARDED_FOR': '155.144.114.41', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_ORIGIN': 'http://localhost:9966', 'wsgi.input': <_io.BufferedReader name=5>, 'wsgi.errors': <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>, 'wsgi.version': (1, 0), 'wsgi.run_once': False, 'wsgi.url_scheme': 'http', 'wsgi.multithread': True, 'wsgi.multiprocess': False, 'wsgi.file_wrapper': <class 'wsgiref.util.FileWrapper'>}
+name:  Damian
+name_length:  6
+gender_prediction: (0, array([0.99045664, 0.00954334], dtype=float32))
+54.240.152.84 - - [26/Apr/2018 06:42:32] "OPTIONS /match/damian HTTP/1.1" 200 2734
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+worker starts
+worker finishes work
+worker finishes sending
+  File "main.py", line 18
+    return [ bytes("", encoding='utf-8') ]
+                                         ^
+TabError: inconsistent use of tabs and spaces in indentation
